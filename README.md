@@ -102,6 +102,12 @@ npm run verify:assets # 资产完整性、sha256、接缝边界差、体积预�
 
 验收结论与全部原始证据见 [`reports/latest.md`](reports/latest.md)。
 
+## 质感经验
+
+本项目把"实时渲染怎么摆脱塑料感"完整沉淀在 **[`docs/RENDER-QUALITY-NOTES.md`](docs/RENDER-QUALITY-NOTES.md)**：
+四层叠加模型、塑料感的 5 个可检查来源、关键手法与代价、实际踩过的 8 个坑、
+可量化的画面指标，以及"先修几何与法线、再修贴图、最后才动后期"的迭代顺序。
+
 ## 资产与许可
 
 - 贴图与海报：由 AI 图像工具生成，**仅在本轮构建期使用**，运行时零外部请求。
