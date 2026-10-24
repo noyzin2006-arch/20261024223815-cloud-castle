@@ -1,0 +1,18 @@
+$ npm run build
+
+> aetherkeep@1.0.0 build
+> vite build
+
+vite v8.3.5 building client environment for production...
+transforming...
+
+./assets/fonts/fonts.css doesn't exist at build time, it will remain unchanged to be resolved at runtime
+✓ 48 modules transformed.
+rendering chunks...
+computing gzip size...
+dist/index.html                  10.24 kB │ gzip:   2.77 kB
+dist/assets/index-CMY6Tj7T.css   13.86 kB │ gzip:   3.53 kB
+dist/assets/index-B6pUoVP7.js   699.14 kB │ gzip: 187.47 kB
+
+✓ built in 292ms
+exit_code=0

@@ -1,0 +1,12 @@
+$ node --version
+v26.0.0
+
+$ npm ci
+
+added 28 packages, and audited 29 packages in 1s
+
+11 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+exit_code=0
