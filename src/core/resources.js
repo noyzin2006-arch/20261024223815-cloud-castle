@@ -9,6 +9,7 @@
 import * as THREE from 'three';
 
 import { MATERIAL_COLORS, MATERIAL_FILES, PALETTE, PIPELINE } from '../config/visual.js';
+import { applyMasonryDetail } from '../world/surface-detail.mjs';
 
 const BASE = './assets/materials/';
 
@@ -243,6 +244,24 @@ export function createMaterials(state, manifest) {
   for (const material of Object.values(materials)) {
     if (material.map) material.map.repeat.set(1, 1);
   }
+
+  // 逐砌块色差 + 灰缝加深：贴图负责大面纹理，这一层负责「每一块石头是独立的」
+  applyMasonryDetail(materials.stone, {
+    blockSize: 0.46, seamWidth: 0.05, seamDarken: 0.34, variation: 0.13,
+    tint: [1.0, 0.985, 0.945], cacheKey: 'ak-masonry-stone',
+  });
+  applyMasonryDetail(materials.trim, {
+    blockSize: 0.34, seamWidth: 0.035, seamDarken: 0.26, variation: 0.10,
+    tint: [1.0, 0.99, 0.97], cacheKey: 'ak-masonry-trim',
+  });
+  applyMasonryDetail(materials.basalt, {
+    blockSize: 0.52, seamWidth: 0.055, seamDarken: 0.4, variation: 0.16,
+    tint: [0.96, 0.99, 1.03], cacheKey: 'ak-masonry-basalt',
+  });
+  applyMasonryDetail(materials.cliff, {
+    blockSize: 2.6, seamWidth: 0.16, seamDarken: 0.22, variation: 0.15,
+    tint: [1.0, 0.995, 0.985], cacheKey: 'ak-masonry-cliff',
+  });
 
   void state;
   void worldScale;

@@ -6,21 +6,21 @@
   "lumaP01": 0,
   "lumaP99": 0.8125850980392156,
   "lumaRange": 0.8125850980392156,
-  "lumaMean": 0.5999432170793046,
-  "saturationMedian": 0.2809523809523809,
+  "lumaMean": 0.5989984552159676,
+  "saturationMedian": 0.28061224489795916,
   "cloudLitRoi": {
     "x": 720,
     "y": 352,
-    "coverage": 0.921875,
-    "meanLuma": 0.8137532859754354
+    "coverage": 0.920166015625,
+    "meanLuma": 0.8138676792617038
   },
   "cloudShadeRoi": {
     "x": 200,
     "y": 1016,
-    "coverage": 0.972412109375,
-    "meanLuma": 0.47772142428852266
+    "coverage": 0.97216796875,
+    "meanLuma": 0.47641107276863626
   },
-  "cloudLumaDelta": 0.33603186168691274,
+  "cloudLumaDelta": 0.3374566064930675,
   "cloudRoiNote": "",
   "verdict": {
     "pass": true,
@@ -42,14 +42,14 @@
       {
         "id": "saturationMedian",
         "label": "HSV 饱和度中位数",
-        "actual": 0.2809523809523809,
+        "actual": 0.28061224489795916,
         "min": 0.12,
         "pass": true
       },
       {
         "id": "litShadowDelta",
         "label": "云层受光/背光亮度差",
-        "actual": 0.33603186168691274,
+        "actual": 0.3374566064930675,
         "min": 0.12,
         "pass": true
       }

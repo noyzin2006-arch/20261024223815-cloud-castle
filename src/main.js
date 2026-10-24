@@ -19,7 +19,8 @@ import { createDiagnostics, mountDebugApi } from './core/diagnostics.js';
 import { createMaterials, loadAssets } from './core/resources.js';
 import { createSky } from './world/sky.js';
 import { createLights } from './world/lights.js';
-import { createIsland } from './world/island.js';
+import { createIsland, topHeight } from './world/island.js';
+import { scatterRubble } from './world/surface-detail.mjs';
 import { createCastle } from './world/castle.js';
 import { createTrees } from './world/trees.js';
 import { createReflectingPool } from './world/water.js';
@@ -129,6 +130,25 @@ async function bootstrap() {
 
   const trees = createTrees({ materials });
   scene.add(trees.group);
+
+  // 墙脚碎石：打断建筑与地面交界那条过于干净的边
+  const rubbleGround = (x, z) => (Math.hypot(x, z) < 46 ? 7.0 : topHeight(x, z));
+  const rubble = scatterRubble({
+    material: materials.cliff,
+    count: 260,
+    groundAt: rubbleGround,
+    seed: 20261024,
+    zones: [
+      { x: 0, z: -6, r: 15 },
+      { x: 27, z: 10, r: 11 },
+      { x: -24, z: 4, r: 24 },
+      { x: 31, z: -26, r: 13 },
+      { x: -36, z: -22, r: 12 },
+      { x: -8, z: -32, r: 24 },
+      { x: 34, z: -6, r: 19 },
+    ],
+  });
+  scene.add(rubble);
 
   const pool = createReflectingPool();
   scene.add(pool.mesh);

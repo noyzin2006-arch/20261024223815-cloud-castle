@@ -12,10 +12,30 @@
 import * as THREE from 'three';
 import { mergeGeometries } from 'three/examples/jsm/utils/BufferGeometryUtils.js';
 import { prepareForMerge } from './geo-utils.js';
+import { displaceVertices } from './surface-detail.mjs';
 
 import { ARCHITECTURE, PALETTE, SEED } from '../config/visual.js';
 
 const BASE_Y = 8;
+
+/**
+ * 按目标边长决定细分段数（上限 12 段，避免三角形爆炸）。
+ * @param {number} size
+ * @param {number} target 目标段长（米）
+ */
+function segments(size, target = 2.2) {
+  return Math.max(1, Math.min(12, Math.round(Math.abs(size) / target)));
+}
+
+/** 带细分的盒体 */
+function box(w, h, d) {
+  return new THREE.BoxGeometry(w, h, d, segments(w), segments(h), segments(d));
+}
+
+/** 带细分的圆柱 */
+function cyl(rt, rb, h, radial = 24, heightSeg = 1) {
+  return new THREE.CylinderGeometry(rt, rb, h, radial, heightSeg);
+}
 
 /** 确定性 PRNG */
 function rng(seed) {
@@ -38,6 +58,9 @@ function withColor(geometry, color) {
   return prepareForMerge(geometry, color);
 }
 
+/** 允许做顶点扰动的材质（屋面与金属件保持锐利） */
+const DISPLACEABLE = new Set(['stone', 'trim', 'basalt']);
+
 /** 收集器：按材质分桶并合并 */
 class GeometryBucket {
   constructor() {
@@ -48,6 +71,11 @@ class GeometryBucket {
   add(materialKey, geometry, matrix) {
     const working = geometry.clone();
     if (matrix) working.applyMatrix4(matrix);
+    // 顶点扰动必须在**索引几何**上做（共享顶点不撕裂）；
+    // 非索引几何（如 ExtrudeGeometry）跳过，否则拱券会被撕开。
+    if (working.index && DISPLACEABLE.has(materialKey)) {
+      displaceVertices(working, { amount: 0.075, frequency: 0.28, seed: 7 });
+    }
     // 顶点色只做**轻微色调**：贴图本身已经是最终颜色，
     // 这里再乘一次材质本色会把深色材质（板岩屋顶）压成死黑。
     const geo = withColor(working, materialKey === 'slate' ? '#e2ecf4'
@@ -226,7 +254,7 @@ class Builder {
   roundTower({
     bucket, roofBucket, trimBucket, x, z, radius, height, roofHeight, windows = 3, roofColor = PALETTE.roof,
   }) {
-    const wall = new THREE.CylinderGeometry(radius * 0.94, radius, height, 20, 1, true);
+    const wall = cyl(radius * 0.94, radius, height, 28, segments(height));
     this.bucket.add(bucket, wall, mat(x, BASE_Y + height / 2, z));
     wall.dispose();
 
@@ -234,23 +262,23 @@ class Builder {
     const cornices = Math.max(2, Math.floor(height / 7));
     for (let i = 1; i <= cornices; i += 1) {
       const y = BASE_Y + (height * i) / (cornices + 1);
-      const ring = new THREE.CylinderGeometry(radius * 0.99, radius * 0.99, 0.36, 20);
+      const ring = cyl(radius * 0.99, radius * 0.99, 0.36, 24);
       this.bucket.add(trimBucket, ring, mat(x, y, z));
       ring.dispose();
     }
 
     // 挑檐（eave）：塔顶向外挑出
-    const eave = new THREE.CylinderGeometry(radius * 1.16, radius * 1.08, 0.9, 20);
+    const eave = cyl(radius * 1.16, radius * 1.08, 0.9, 24);
     this.bucket.add(trimBucket, eave, mat(x, BASE_Y + height + 0.3, z));
     eave.dispose();
 
     // 锥形板岩屋顶
-    const roof = new THREE.ConeGeometry(radius * 1.22, roofHeight, 20, 1);
+    const roof = new THREE.ConeGeometry(radius * 1.22, roofHeight, 28, 3);
     this.bucket.add(roofBucket, roof, mat(x, BASE_Y + height + 0.75 + roofHeight / 2, z));
     roof.dispose();
 
     // 屋顶下的檐口斜面（避免屋顶像直接插在塔上）
-    const skirt = new THREE.CylinderGeometry(radius * 1.22, radius * 1.0, 1.5, 20, 1, true);
+    const skirt = cyl(radius * 1.22, radius * 1.0, 1.5, 24, 2);
     this.bucket.add(roofBucket, skirt, mat(x, BASE_Y + height + 0.9, z));
     skirt.dispose();
 
@@ -289,7 +317,7 @@ class Builder {
   squareTower({
     bucket, roofBucket, trimBucket, x, z, width, height, windows = 4,
   }) {
-    const body = new THREE.BoxGeometry(width, height, width);
+    const body = box(width, height, width);
     this.bucket.add(bucket, body, mat(x, BASE_Y + height / 2, z));
     body.dispose();
 
@@ -298,7 +326,7 @@ class Builder {
     for (const [dx, dz] of [[-1, -1], [1, -1], [-1, 1], [1, 1]]) {
       const cx = x + (dx * (width - corner)) / 2;
       const cz = z + (dz * (width - corner)) / 2;
-      const turret = new THREE.CylinderGeometry(corner * 0.55, corner * 0.6, height * 0.52, 10);
+      const turret = cyl(corner * 0.55, corner * 0.6, height * 0.52, 16, 2);
       this.bucket.add(bucket, turret, mat(cx, BASE_Y + height * 0.26, cz));
       turret.dispose();
 
@@ -311,13 +339,13 @@ class Builder {
     const cornices = Math.max(3, Math.floor(height / 9));
     for (let i = 1; i <= cornices; i += 1) {
       const y = BASE_Y + (height * i) / (cornices + 1);
-      const band = new THREE.BoxGeometry(width + 0.5, 0.42, width + 0.5);
+      const band = box(width + 0.5, 0.42, width + 0.5);
       this.bucket.add(trimBucket, band, mat(x, y, z));
       band.dispose();
     }
 
     // 顶部挑檐 + 四坡板岩屋顶
-    const eave = new THREE.BoxGeometry(width + 1.5, 0.9, width + 1.5);
+    const eave = box(width + 1.5, 0.9, width + 1.5);
     this.bucket.add(trimBucket, eave, mat(x, BASE_Y + height + 0.35, z));
     eave.dispose();
 
@@ -348,7 +376,7 @@ class Builder {
   hall({
     bucket, roofBucket, trimBucket, glassBucket, x, z, width, depth, height, ridgeAlong = 'x',
   }) {
-    const body = new THREE.BoxGeometry(width, height, depth);
+    const body = box(width, height, depth);
     this.bucket.add(bucket, body, mat(x, BASE_Y + height / 2, z));
     body.dispose();
 
@@ -356,7 +384,7 @@ class Builder {
     const cornices = Math.max(2, Math.floor(height / 8));
     for (let i = 1; i <= cornices; i += 1) {
       const y = BASE_Y + (height * i) / (cornices + 1);
-      const band = new THREE.BoxGeometry(width + 0.4, 0.36, depth + 0.4);
+      const band = box(width + 0.4, 0.36, depth + 0.4);
       this.bucket.add(trimBucket, band, mat(x, y, z));
       band.dispose();
     }
@@ -439,7 +467,7 @@ class Builder {
       const t = i * step;
       const px = axis === 'x' ? x - length / 2 + t : x;
       const pz = axis === 'x' ? z : z - length / 2 + t;
-      const pier = new THREE.BoxGeometry(axis === 'x' ? pierW : 3.2, height, axis === 'x' ? 3.2 : pierW);
+      const pier = box(axis === 'x' ? pierW : 3.2, height, axis === 'x' ? 3.2 : pierW);
       this.bucket.add(bucket, pier, mat(px, BASE_Y + height / 2, pz));
       pier.dispose();
     }
@@ -480,7 +508,7 @@ class Builder {
     body.dispose();
 
     // 走道压顶
-    const walk = new THREE.BoxGeometry(length + 0.6, 0.5, 3.4);
+    const walk = box(length + 0.6, 0.5, 3.4);
     this.bucket.add(trimBucket, walk, mat(x, BASE_Y + height + 0.2, z, 0, rotation, 0));
     walk.dispose();
 
@@ -490,7 +518,7 @@ class Builder {
       const t = -length / 2 + (i + 0.5) * (length / count);
       const cx = x + Math.cos(rotation) * t;
       const cz = z - Math.sin(rotation) * t;
-      const merlon = new THREE.BoxGeometry(1.3, 1.6, 2.0);
+      const merlon = box(1.3, 1.6, 2.0);
       this.bucket.add(trimBucket, merlon, mat(cx, BASE_Y + height + 1.2, cz, 0, rotation, 0));
       merlon.dispose();
     }
@@ -498,7 +526,7 @@ class Builder {
 
   /** 扶壁 */
   buttress({ bucket, trimBucket, x, z, height, rotation = 0 }) {
-    const body = new THREE.BoxGeometry(2.4, height, 3.4);
+    const body = box(2.4, height, 3.4);
     this.bucket.add(bucket, body, mat(x, BASE_Y + height / 2, z, 0, rotation, 0));
     body.dispose();
 
@@ -527,7 +555,7 @@ export function createCastle({ materials }) {
 
   // ---------------------------------------------------------------- 基座台地
   {
-    const terrace = new THREE.CylinderGeometry(46, 50, 3.2, 48);
+    const terrace = cyl(46, 50, 3.2, 56, 2);
     builder.bucket.add('basalt', terrace, mat(0, BASE_Y - 1.4, 0));
     terrace.dispose();
   }
@@ -546,7 +574,7 @@ export function createCastle({ materials }) {
 
   // 主塔底部的加强段（深蓝玄武岩）
   {
-    const plinth = new THREE.CylinderGeometry(13.2, 14.4, 14, 24);
+    const plinth = cyl(13.2, 14.4, 14, 32, 3);
     builder.bucket.add('basalt', plinth, mat(0, BASE_Y + 7, -6));
     plinth.dispose();
   }
