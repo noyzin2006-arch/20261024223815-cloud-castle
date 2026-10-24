@@ -1,0 +1,46 @@
+{
+  "note": "材质贴图生成记录（策展资产）。每条记录可原样重跑复现：mcode-tools connector call connector__matrix__generate_image --args '<单条 requests JSON>'，再用 mcode-tools get_asset_url <node_id> 取下载地址下载原始图，cwebp -q 86 转 WebP 入 assets/textures/。",
+  "generator": "mcode-tools connector__matrix__generate_image",
+  "recipe": "材质描述 + 'seamless tileable texture' + 'flat even lighting, no shadows, no objects' + 'orthographic top-down' + 'photorealistic PBR albedo map'。光照不均或带投影会毁掉可平铺性与 PBR 用法。",
+  "resolution": "2K",
+  "aspect_ratio": "1:1",
+  "postprocess": "cwebp -q 86 -m 6",
+  "textures": [
+    {
+      "file": "castle-stone.webp",
+      "material": "城堡外墙石灰岩砌块",
+      "node_id": "455884623552870",
+      "prompt": "Seamless tileable texture of weathered medieval castle limestone masonry, hand-carved blocks with fine mortar joints, subtle moss in crevices, soft warm beige-grey stone, high detail, flat even lighting, no shadows, no objects, orthographic top-down, photorealistic PBR albedo map"
+    },
+    {
+      "file": "roof-slate.webp",
+      "material": "屋顶蓝灰板岩瓦",
+      "node_id": "455886600667226",
+      "prompt": "Seamless tileable texture of medieval castle roof made of overlapping dark blue-grey slate shingles, tight irregular rows, weathered edges, subtle moss and lichen, flat even lighting, no shadows, no objects, orthographic top-down, photorealistic PBR albedo map"
+    },
+    {
+      "file": "timber-oak.webp",
+      "material": "橡木梁与门板",
+      "node_id": "455886264898007",
+      "prompt": "Seamless tileable texture of aged oak timber beams and planks, visible wood grain, saw marks, iron nail heads, warm dark brown patina, flat even lighting, no shadows, no objects, orthographic top-down, photorealistic PBR albedo map"
+    },
+    {
+      "file": "cliff-rock.webp",
+      "material": "浮岛崖壁层状砂岩",
+      "node_id": "455886371213599",
+      "prompt": "Seamless tileable texture of layered sandstone cliff rock face, horizontal sedimentary strata, eroded edges, warm ochre and grey tones, fine cracks and dust, flat even lighting, no shadows, no objects, orthographic top-down, photorealistic PBR albedo map"
+    },
+    {
+      "file": "thatch-straw.webp",
+      "material": "茅草屋顶",
+      "node_id": "455886556975587",
+      "prompt": "Seamless tileable texture of thick golden straw thatch roofing, bundled reed strands, weathered golden brown, flat even lighting, no shadows, no objects, orthographic top-down, photorealistic PBR albedo map"
+    },
+    {
+      "file": "banner-cloth.webp",
+      "material": "朱红旗布",
+      "node_id": "455886214443514",
+      "prompt": "Seamless tileable texture of heavy crimson red velvet heraldic banner cloth, visible woven fabric weave, subtle folds and soft sheen, gold embroidered border hint at the edge, flat even lighting, no shadows, no objects, orthographic top-down, photorealistic PBR albedo map"
+    }
+  ]
+}
