@@ -1,5 +1,5 @@
 {
-  "totalRequests": 340,
+  "totalRequests": 310,
   "externalAttempts": [],
   "all": [
     {
@@ -19,7 +19,7 @@
       "method": "GET"
     },
     {
-      "url": "http://127.0.0.1:4173/assets/index-CNqAc1BL.js",
+      "url": "http://127.0.0.1:4173/assets/index-D7SOEdLj.js",
       "method": "GET"
     },
     {
@@ -96,18 +96,6 @@
     },
     {
       "url": "http://127.0.0.1:4173/assets/materials/A05-stratified-cliff-roughness.webp",
-      "method": "GET"
-    },
-    {
-      "url": "http://127.0.0.1:4173/assets/materials/A06-flagstone-path-albedo.webp",
-      "method": "GET"
-    },
-    {
-      "url": "http://127.0.0.1:4173/assets/materials/A06-flagstone-path-normal.webp",
-      "method": "GET"
-    },
-    {
-      "url": "http://127.0.0.1:4173/assets/materials/A06-flagstone-path-roughness.webp",
       "method": "GET"
     },
     {
@@ -155,7 +143,7 @@
       "method": "GET"
     },
     {
-      "url": "http://127.0.0.1:4173/assets/index-CNqAc1BL.js",
+      "url": "http://127.0.0.1:4173/assets/index-D7SOEdLj.js",
       "method": "GET"
     },
     {
@@ -232,18 +220,6 @@
     },
     {
       "url": "http://127.0.0.1:4173/assets/materials/A05-stratified-cliff-roughness.webp",
-      "method": "GET"
-    },
-    {
-      "url": "http://127.0.0.1:4173/assets/materials/A06-flagstone-path-albedo.webp",
-      "method": "GET"
-    },
-    {
-      "url": "http://127.0.0.1:4173/assets/materials/A06-flagstone-path-normal.webp",
-      "method": "GET"
-    },
-    {
-      "url": "http://127.0.0.1:4173/assets/materials/A06-flagstone-path-roughness.webp",
       "method": "GET"
     },
     {
@@ -291,7 +267,7 @@
       "method": "GET"
     },
     {
-      "url": "http://127.0.0.1:4173/assets/index-CNqAc1BL.js",
+      "url": "http://127.0.0.1:4173/assets/index-D7SOEdLj.js",
       "method": "GET"
     },
     {
@@ -368,18 +344,6 @@
     },
     {
       "url": "http://127.0.0.1:4173/assets/materials/A05-stratified-cliff-roughness.webp",
-      "method": "GET"
-    },
-    {
-      "url": "http://127.0.0.1:4173/assets/materials/A06-flagstone-path-albedo.webp",
-      "method": "GET"
-    },
-    {
-      "url": "http://127.0.0.1:4173/assets/materials/A06-flagstone-path-normal.webp",
-      "method": "GET"
-    },
-    {
-      "url": "http://127.0.0.1:4173/assets/materials/A06-flagstone-path-roughness.webp",
       "method": "GET"
     },
     {
@@ -427,7 +391,7 @@
       "method": "GET"
     },
     {
-      "url": "http://127.0.0.1:4173/assets/index-CNqAc1BL.js",
+      "url": "http://127.0.0.1:4173/assets/index-D7SOEdLj.js",
       "method": "GET"
     },
     {
@@ -504,18 +468,6 @@
     },
     {
       "url": "http://127.0.0.1:4173/assets/materials/A05-stratified-cliff-roughness.webp",
-      "method": "GET"
-    },
-    {
-      "url": "http://127.0.0.1:4173/assets/materials/A06-flagstone-path-albedo.webp",
-      "method": "GET"
-    },
-    {
-      "url": "http://127.0.0.1:4173/assets/materials/A06-flagstone-path-normal.webp",
-      "method": "GET"
-    },
-    {
-      "url": "http://127.0.0.1:4173/assets/materials/A06-flagstone-path-roughness.webp",
       "method": "GET"
     },
     {
@@ -563,7 +515,7 @@
       "method": "GET"
     },
     {
-      "url": "http://127.0.0.1:4173/assets/index-CNqAc1BL.js",
+      "url": "http://127.0.0.1:4173/assets/index-D7SOEdLj.js",
       "method": "GET"
     },
     {
@@ -640,18 +592,6 @@
     },
     {
       "url": "http://127.0.0.1:4173/assets/materials/A05-stratified-cliff-roughness.webp",
-      "method": "GET"
-    },
-    {
-      "url": "http://127.0.0.1:4173/assets/materials/A06-flagstone-path-albedo.webp",
-      "method": "GET"
-    },
-    {
-      "url": "http://127.0.0.1:4173/assets/materials/A06-flagstone-path-normal.webp",
-      "method": "GET"
-    },
-    {
-      "url": "http://127.0.0.1:4173/assets/materials/A06-flagstone-path-roughness.webp",
       "method": "GET"
     },
     {
@@ -699,7 +639,7 @@
       "method": "GET"
     },
     {
-      "url": "http://127.0.0.1:4173/assets/index-CNqAc1BL.js",
+      "url": "http://127.0.0.1:4173/assets/index-D7SOEdLj.js",
       "method": "GET"
     },
     {
@@ -776,18 +716,6 @@
     },
     {
       "url": "http://127.0.0.1:4173/assets/materials/A05-stratified-cliff-roughness.webp",
-      "method": "GET"
-    },
-    {
-      "url": "http://127.0.0.1:4173/assets/materials/A06-flagstone-path-albedo.webp",
-      "method": "GET"
-    },
-    {
-      "url": "http://127.0.0.1:4173/assets/materials/A06-flagstone-path-normal.webp",
-      "method": "GET"
-    },
-    {
-      "url": "http://127.0.0.1:4173/assets/materials/A06-flagstone-path-roughness.webp",
       "method": "GET"
     },
     {
@@ -835,7 +763,7 @@
       "method": "GET"
     },
     {
-      "url": "http://127.0.0.1:4173/assets/index-CNqAc1BL.js",
+      "url": "http://127.0.0.1:4173/assets/index-D7SOEdLj.js",
       "method": "GET"
     },
     {
@@ -912,18 +840,6 @@
     },
     {
       "url": "http://127.0.0.1:4173/assets/materials/A05-stratified-cliff-roughness.webp",
-      "method": "GET"
-    },
-    {
-      "url": "http://127.0.0.1:4173/assets/materials/A06-flagstone-path-albedo.webp",
-      "method": "GET"
-    },
-    {
-      "url": "http://127.0.0.1:4173/assets/materials/A06-flagstone-path-normal.webp",
-      "method": "GET"
-    },
-    {
-      "url": "http://127.0.0.1:4173/assets/materials/A06-flagstone-path-roughness.webp",
       "method": "GET"
     },
     {
@@ -971,7 +887,7 @@
       "method": "GET"
     },
     {
-      "url": "http://127.0.0.1:4173/assets/index-CNqAc1BL.js",
+      "url": "http://127.0.0.1:4173/assets/index-D7SOEdLj.js",
       "method": "GET"
     },
     {
@@ -1048,18 +964,6 @@
     },
     {
       "url": "http://127.0.0.1:4173/assets/materials/A05-stratified-cliff-roughness.webp",
-      "method": "GET"
-    },
-    {
-      "url": "http://127.0.0.1:4173/assets/materials/A06-flagstone-path-albedo.webp",
-      "method": "GET"
-    },
-    {
-      "url": "http://127.0.0.1:4173/assets/materials/A06-flagstone-path-normal.webp",
-      "method": "GET"
-    },
-    {
-      "url": "http://127.0.0.1:4173/assets/materials/A06-flagstone-path-roughness.webp",
       "method": "GET"
     },
     {
@@ -1107,7 +1011,7 @@
       "method": "GET"
     },
     {
-      "url": "http://127.0.0.1:4173/assets/index-CNqAc1BL.js",
+      "url": "http://127.0.0.1:4173/assets/index-D7SOEdLj.js",
       "method": "GET"
     },
     {
@@ -1184,18 +1088,6 @@
     },
     {
       "url": "http://127.0.0.1:4173/assets/materials/A05-stratified-cliff-roughness.webp",
-      "method": "GET"
-    },
-    {
-      "url": "http://127.0.0.1:4173/assets/materials/A06-flagstone-path-albedo.webp",
-      "method": "GET"
-    },
-    {
-      "url": "http://127.0.0.1:4173/assets/materials/A06-flagstone-path-normal.webp",
-      "method": "GET"
-    },
-    {
-      "url": "http://127.0.0.1:4173/assets/materials/A06-flagstone-path-roughness.webp",
       "method": "GET"
     },
     {
@@ -1243,7 +1135,7 @@
       "method": "GET"
     },
     {
-      "url": "http://127.0.0.1:4173/assets/index-CNqAc1BL.js",
+      "url": "http://127.0.0.1:4173/assets/index-D7SOEdLj.js",
       "method": "GET"
     },
     {
@@ -1320,18 +1212,6 @@
     },
     {
       "url": "http://127.0.0.1:4173/assets/materials/A05-stratified-cliff-roughness.webp",
-      "method": "GET"
-    },
-    {
-      "url": "http://127.0.0.1:4173/assets/materials/A06-flagstone-path-albedo.webp",
-      "method": "GET"
-    },
-    {
-      "url": "http://127.0.0.1:4173/assets/materials/A06-flagstone-path-normal.webp",
-      "method": "GET"
-    },
-    {
-      "url": "http://127.0.0.1:4173/assets/materials/A06-flagstone-path-roughness.webp",
       "method": "GET"
     },
     {

@@ -13,6 +13,21 @@ import { MATERIAL_COLORS, MATERIAL_FILES, PALETTE, PIPELINE } from '../config/vi
 const BASE = './assets/materials/';
 
 /**
+ * 场景里**实际用到**的材质。
+ * 资产仓库里仍然保留全部 8 组（出处与校验不受影响），
+ * 但运行时只下载用得上的，避免每次访问白拉 1.7MB。
+ */
+const RUNTIME_MATERIALS = new Set([
+  'A01-castle-ashlar',   // 城墙 / 塔楼 / 大殿 / 城垣 / 地面
+  'A02-sandstone-voussoir', // 券石 / 线脚 / 挑檐 / 雉堞
+  'A03-basalt-foundation',  // 主塔基座 / 台地
+  'A04-slate-roof',         // 板岩屋顶
+  'A05-stratified-cliff',   // 浮岛崖壁
+  'A07-carved-oak',         // 大门
+  'A08-aged-bronze',        // 旗杆 / 金属件
+]);
+
+/**
  * 程序化保底纹理：分块砌缝 + 风化色差。
  * 只有在 AI 贴图缺失时才会用到。
  * @param {string} seedKey
@@ -62,6 +77,7 @@ export async function loadAssets({ signal, onProgress } = {}) {
     materials: {},
     poster: null,
     degraded: [],
+    skipped: [],
     fonts: [],
   };
 
@@ -89,6 +105,13 @@ export async function loadAssets({ signal, onProgress } = {}) {
   }
 
   for (const name of names) {
+    // 场景里没用到的材质**不下载**：
+    // 每次多下一张 2048² albedo + 两张 1024² 就是 1.7MB 纯浪费。
+    if (!RUNTIME_MATERIALS.has(name)) {
+      manifest.skipped.push(name);
+      report(`${name}（场景未使用，跳过）`);
+      continue;
+    }
     const spec = MATERIAL_FILES[name];
     /** @type {Record<string, THREE.Texture>} */
     const entry = { degraded: false };
