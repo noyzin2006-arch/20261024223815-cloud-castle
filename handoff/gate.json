@@ -1,8 +1,15 @@
 {
-  "task": "",
+  "task": "CLOUDCASTLE-02",
   "round1": {
-    "brief": "",
-    "plan": "",
-    "guardedPaths": []
+    "brief": "handoff/briefs/CLOUDCASTLE-02.md",
+    "plan": "handoff/plans/CLOUDCASTLE-02.md",
+    "guardedPaths": [
+      "src/",
+      "public/",
+      "index.html",
+      "vite.config.js",
+      "package.json",
+      "web/"
+    ]
   }
 }
