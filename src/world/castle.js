@@ -386,17 +386,21 @@ class Builder {
         0.42,
         ridgeAlong === 'x' ? slopeLen : depth + 1.2,
       );
+      // 旋转方向必须让屋面**向外向下**倾斜：
+      // 绕 X 轴转 +θ 时，局部 +Z 指向 (0,-sinθ,cosθ) —— 下且朝外。
+      // 之前写成 sign * -angle，屋面会朝上翘，变成伸出去的平板。
       if (ridgeAlong === 'x') {
         this.bucket.add(
           roofBucket,
           plane,
-          mat(x, BASE_Y + height + roofH / 2, z + (sign * halfSpan) / 2, sign * -angle, 0, 0),
+          mat(x, BASE_Y + height + roofH / 2, z + (sign * halfSpan) / 2, sign * angle, 0, 0),
         );
       } else {
+        // 绕 Z 轴转 -θ 时，局部 +X 指向 (cosθ,-sinθ,0) —— 下且朝外
         this.bucket.add(
           roofBucket,
           plane,
-          mat(x + (sign * halfSpan) / 2, BASE_Y + height + roofH / 2, z, 0, 0, sign * angle),
+          mat(x + (sign * halfSpan) / 2, BASE_Y + height + roofH / 2, z, 0, 0, sign * -angle),
         );
       }
       plane.dispose();

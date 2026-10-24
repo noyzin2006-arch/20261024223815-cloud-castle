@@ -1,9 +1,19 @@
 [
   {
+    "frameId": 69,
+    "nowMs": 1955,
+    "frameMs": 15.600000008940697,
+    "fps": 64.10256406582553,
+    "drawCalls": 97,
+    "triangles": 282126,
+    "scale": 0.9,
+    "tier": "balanced"
+  },
+  {
     "frameId": 70,
-    "nowMs": 1975.5999999940395,
-    "frameMs": 17.5,
-    "fps": 57.142857142857146,
+    "nowMs": 1973.0999999940395,
+    "frameMs": 18.099999994039536,
+    "fps": 55.24861880272417,
     "drawCalls": 97,
     "triangles": 282126,
     "scale": 0.9,
@@ -11,9 +21,9 @@
   },
   {
     "frameId": 71,
-    "nowMs": 1992.2000000029802,
-    "frameMs": 16.600000008940697,
-    "fps": 60.240963822976134,
+    "nowMs": 1989.2000000029802,
+    "frameMs": 16.100000008940697,
+    "fps": 62.11180120774393,
     "drawCalls": 97,
     "triangles": 282126,
     "scale": 0.9,
@@ -21,87 +31,7 @@
   },
   {
     "frameId": 72,
-    "nowMs": 2009,
-    "frameMs": 16.799999997019768,
-    "fps": 59.52380953436874,
-    "drawCalls": 97,
-    "triangles": 282126,
-    "scale": 0.9,
-    "tier": "balanced"
-  },
-  {
-    "frameId": 73,
-    "nowMs": 2025.4000000059605,
-    "frameMs": 16.400000005960464,
-    "fps": 60.9756097339364,
-    "drawCalls": 97,
-    "triangles": 282126,
-    "scale": 0.9,
-    "tier": "balanced"
-  },
-  {
-    "frameId": 74,
-    "nowMs": 2042.0999999940395,
-    "frameMs": 16.69999998807907,
-    "fps": 59.88023956370228,
-    "drawCalls": 97,
-    "triangles": 282126,
-    "scale": 0.9,
-    "tier": "balanced"
-  },
-  {
-    "frameId": 75,
-    "nowMs": 2058.4000000059605,
-    "frameMs": 16.30000001192093,
-    "fps": 61.34969320666593,
-    "drawCalls": 97,
-    "triangles": 282126,
-    "scale": 0.9,
-    "tier": "balanced"
-  },
-  {
-    "frameId": 76,
-    "nowMs": 2075.5,
-    "frameMs": 17.099999994039536,
-    "fps": 58.47953218412662,
-    "drawCalls": 97,
-    "triangles": 282126,
-    "scale": 0.9,
-    "tier": "balanced"
-  },
-  {
-    "frameId": 77,
-    "nowMs": 2091.7000000029802,
-    "frameMs": 16.200000002980232,
-    "fps": 61.728395050372534,
-    "drawCalls": 97,
-    "triangles": 282126,
-    "scale": 0.9,
-    "tier": "balanced"
-  },
-  {
-    "frameId": 78,
-    "nowMs": 2108.5,
-    "frameMs": 16.799999997019768,
-    "fps": 59.52380953436874,
-    "drawCalls": 97,
-    "triangles": 282126,
-    "scale": 0.9,
-    "tier": "balanced"
-  },
-  {
-    "frameId": 79,
-    "nowMs": 2125.2999999970198,
-    "frameMs": 16.799999997019768,
-    "fps": 59.52380953436874,
-    "drawCalls": 97,
-    "triangles": 282126,
-    "scale": 0.9,
-    "tier": "balanced"
-  },
-  {
-    "frameId": 80,
-    "nowMs": 2141.7999999970198,
+    "nowMs": 2005.7000000029802,
     "frameMs": 16.5,
     "fps": 60.60606060606061,
     "drawCalls": 97,
@@ -110,28 +40,78 @@
     "tier": "balanced"
   },
   {
-    "frameId": 81,
-    "nowMs": 2158.5999999940395,
-    "frameMs": 16.799999997019768,
-    "fps": 59.52380953436874,
+    "frameId": 73,
+    "nowMs": 2022,
+    "frameMs": 16.299999997019768,
+    "fps": 61.3496932627507,
     "drawCalls": 97,
     "triangles": 282126,
     "scale": 0.9,
     "tier": "balanced"
   },
   {
-    "frameId": 82,
-    "nowMs": 2175.5999999940395,
-    "frameMs": 17,
-    "fps": 58.8235294117647,
+    "frameId": 74,
+    "nowMs": 2039.0999999940395,
+    "frameMs": 17.099999994039536,
+    "fps": 58.47953218412662,
     "drawCalls": 97,
     "triangles": 282126,
     "scale": 0.9,
     "tier": "balanced"
   },
   {
-    "frameId": 83,
-    "nowMs": 2192.2999999970198,
+    "frameId": 75,
+    "nowMs": 2054.8999999910593,
+    "frameMs": 15.799999997019768,
+    "fps": 63.29113925244445,
+    "drawCalls": 97,
+    "triangles": 282126,
+    "scale": 0.9,
+    "tier": "balanced"
+  },
+  {
+    "frameId": 76,
+    "nowMs": 2072.3999999910593,
+    "frameMs": 17.5,
+    "fps": 57.142857142857146,
+    "drawCalls": 97,
+    "triangles": 282126,
+    "scale": 0.9,
+    "tier": "balanced"
+  },
+  {
+    "frameId": 77,
+    "nowMs": 2089.2000000029802,
+    "frameMs": 16.80000001192093,
+    "fps": 59.52380948157267,
+    "drawCalls": 97,
+    "triangles": 282126,
+    "scale": 0.9,
+    "tier": "balanced"
+  },
+  {
+    "frameId": 78,
+    "nowMs": 2105.7999999970198,
+    "frameMs": 16.599999994039536,
+    "fps": 60.24096387705205,
+    "drawCalls": 97,
+    "triangles": 282126,
+    "scale": 0.9,
+    "tier": "balanced"
+  },
+  {
+    "frameId": 79,
+    "nowMs": 2122.3999999910593,
+    "frameMs": 16.599999994039536,
+    "fps": 60.24096387705205,
+    "drawCalls": 97,
+    "triangles": 282126,
+    "scale": 0.9,
+    "tier": "balanced"
+  },
+  {
+    "frameId": 80,
+    "nowMs": 2139.0999999940395,
     "frameMs": 16.700000002980232,
     "fps": 59.880239510272034,
     "drawCalls": 97,
@@ -140,10 +120,40 @@
     "tier": "balanced"
   },
   {
+    "frameId": 81,
+    "nowMs": 2155.3999999910593,
+    "frameMs": 16.299999997019768,
+    "fps": 61.3496932627507,
+    "drawCalls": 97,
+    "triangles": 282126,
+    "scale": 0.9,
+    "tier": "balanced"
+  },
+  {
+    "frameId": 82,
+    "nowMs": 2172.5999999940395,
+    "frameMs": 17.200000002980232,
+    "fps": 58.139534873647136,
+    "drawCalls": 97,
+    "triangles": 282126,
+    "scale": 0.9,
+    "tier": "balanced"
+  },
+  {
+    "frameId": 83,
+    "nowMs": 2188.2999999970198,
+    "frameMs": 15.700000002980232,
+    "fps": 63.69426750383288,
+    "drawCalls": 97,
+    "triangles": 282126,
+    "scale": 0.9,
+    "tier": "balanced"
+  },
+  {
     "frameId": 84,
-    "nowMs": 2208.7000000029802,
-    "frameMs": 16.400000005960464,
-    "fps": 60.9756097339364,
+    "nowMs": 2206,
+    "frameMs": 17.700000002980232,
+    "fps": 56.497175131730245,
     "drawCalls": 97,
     "triangles": 282126,
     "scale": 0.9,
@@ -151,7 +161,7 @@
   },
   {
     "frameId": 85,
-    "nowMs": 2225.5,
+    "nowMs": 2222.7999999970198,
     "frameMs": 16.799999997019768,
     "fps": 59.52380953436874,
     "drawCalls": 97,
@@ -161,17 +171,7 @@
   },
   {
     "frameId": 86,
-    "nowMs": 2242.2999999970198,
-    "frameMs": 16.799999997019768,
-    "fps": 59.52380953436874,
-    "drawCalls": 97,
-    "triangles": 282126,
-    "scale": 0.9,
-    "tier": "balanced"
-  },
-  {
-    "frameId": 87,
-    "nowMs": 2258.2999999970198,
+    "nowMs": 2238.7999999970198,
     "frameMs": 16,
     "fps": 62.5,
     "drawCalls": 97,
@@ -180,8 +180,68 @@
     "tier": "balanced"
   },
   {
+    "frameId": 87,
+    "nowMs": 2255.5999999940395,
+    "frameMs": 16.799999997019768,
+    "fps": 59.52380953436874,
+    "drawCalls": 97,
+    "triangles": 282126,
+    "scale": 0.9,
+    "tier": "balanced"
+  },
+  {
     "frameId": 88,
-    "nowMs": 2274.9000000059605,
+    "nowMs": 2273.2000000029802,
+    "frameMs": 17.600000008940697,
+    "fps": 56.818181789318515,
+    "drawCalls": 97,
+    "triangles": 282126,
+    "scale": 0.9,
+    "tier": "balanced"
+  },
+  {
+    "frameId": 89,
+    "nowMs": 2289.7999999970198,
+    "frameMs": 16.599999994039536,
+    "fps": 60.24096387705205,
+    "drawCalls": 97,
+    "triangles": 282126,
+    "scale": 0.9,
+    "tier": "balanced"
+  },
+  {
+    "frameId": 90,
+    "nowMs": 2306.3999999910593,
+    "frameMs": 16.599999994039536,
+    "fps": 60.24096387705205,
+    "drawCalls": 97,
+    "triangles": 282126,
+    "scale": 0.9,
+    "tier": "balanced"
+  },
+  {
+    "frameId": 91,
+    "nowMs": 2321.7000000029802,
+    "frameMs": 15.300000011920929,
+    "fps": 65.35947707325845,
+    "drawCalls": 97,
+    "triangles": 282126,
+    "scale": 0.9,
+    "tier": "balanced"
+  },
+  {
+    "frameId": 92,
+    "nowMs": 2339.5999999940395,
+    "frameMs": 17.899999991059303,
+    "fps": 55.865921815613426,
+    "drawCalls": 97,
+    "triangles": 282126,
+    "scale": 0.9,
+    "tier": "balanced"
+  },
+  {
+    "frameId": 93,
+    "nowMs": 2356.2000000029802,
     "frameMs": 16.600000008940697,
     "fps": 60.240963822976134,
     "drawCalls": 97,
@@ -190,60 +250,10 @@
     "tier": "balanced"
   },
   {
-    "frameId": 89,
-    "nowMs": 2290.7000000029802,
-    "frameMs": 15.799999997019768,
-    "fps": 63.29113925244445,
-    "drawCalls": 97,
-    "triangles": 282126,
-    "scale": 0.9,
-    "tier": "balanced"
-  },
-  {
-    "frameId": 90,
-    "nowMs": 2308.2000000029802,
-    "frameMs": 17.5,
-    "fps": 57.142857142857146,
-    "drawCalls": 97,
-    "triangles": 282126,
-    "scale": 0.9,
-    "tier": "balanced"
-  },
-  {
-    "frameId": 91,
-    "nowMs": 2324,
-    "frameMs": 15.799999997019768,
-    "fps": 63.29113925244445,
-    "drawCalls": 97,
-    "triangles": 282126,
-    "scale": 0.9,
-    "tier": "balanced"
-  },
-  {
-    "frameId": 92,
-    "nowMs": 2341.2999999970198,
-    "frameMs": 17.299999997019768,
-    "fps": 57.803468218050156,
-    "drawCalls": 97,
-    "triangles": 282126,
-    "scale": 0.9,
-    "tier": "balanced"
-  },
-  {
-    "frameId": 93,
-    "nowMs": 2357.5,
-    "frameMs": 16.200000002980232,
-    "fps": 61.728395050372534,
-    "drawCalls": 97,
-    "triangles": 282126,
-    "scale": 0.9,
-    "tier": "balanced"
-  },
-  {
     "frameId": 94,
-    "nowMs": 2374.5,
-    "frameMs": 17,
-    "fps": 58.8235294117647,
+    "nowMs": 2372.8999999910593,
+    "frameMs": 16.69999998807907,
+    "fps": 59.88023956370228,
     "drawCalls": 97,
     "triangles": 282126,
     "scale": 0.9,
@@ -251,9 +261,9 @@
   },
   {
     "frameId": 95,
-    "nowMs": 2391.2000000029802,
-    "frameMs": 16.700000002980232,
-    "fps": 59.880239510272034,
+    "nowMs": 2389.5,
+    "frameMs": 16.600000008940697,
+    "fps": 60.240963822976134,
     "drawCalls": 97,
     "triangles": 282126,
     "scale": 0.9,
@@ -261,9 +271,9 @@
   },
   {
     "frameId": 96,
-    "nowMs": 2408.7999999970198,
-    "frameMs": 17.599999994039536,
-    "fps": 56.81818183742402,
+    "nowMs": 2406.3999999910593,
+    "frameMs": 16.899999991059303,
+    "fps": 59.17159766443996,
     "drawCalls": 97,
     "triangles": 282126,
     "scale": 0.9,
@@ -271,9 +281,9 @@
   },
   {
     "frameId": 97,
-    "nowMs": 2424.5999999940395,
-    "frameMs": 15.799999997019768,
-    "fps": 63.29113925244445,
+    "nowMs": 2423.2999999970198,
+    "frameMs": 16.900000005960464,
+    "fps": 59.17159761226685,
     "drawCalls": 97,
     "triangles": 282126,
     "scale": 0.9,
@@ -281,9 +291,9 @@
   },
   {
     "frameId": 98,
-    "nowMs": 2442.0999999940395,
-    "frameMs": 17.5,
-    "fps": 57.142857142857146,
+    "nowMs": 2439.2999999970198,
+    "frameMs": 16,
+    "fps": 62.5,
     "drawCalls": 97,
     "triangles": 282126,
     "scale": 0.9,
@@ -291,9 +301,9 @@
   },
   {
     "frameId": 99,
-    "nowMs": 2458.7999999970198,
-    "frameMs": 16.700000002980232,
-    "fps": 59.880239510272034,
+    "nowMs": 2456.0999999940395,
+    "frameMs": 16.799999997019768,
+    "fps": 59.52380953436874,
     "drawCalls": 97,
     "triangles": 282126,
     "scale": 0.9,
@@ -301,7 +311,7 @@
   },
   {
     "frameId": 100,
-    "nowMs": 2475.4000000059605,
+    "nowMs": 2472.7000000029802,
     "frameMs": 16.600000008940697,
     "fps": 60.240963822976134,
     "drawCalls": 97,
@@ -311,67 +321,7 @@
   },
   {
     "frameId": 101,
-    "nowMs": 2492.0999999940395,
-    "frameMs": 16.69999998807907,
-    "fps": 59.88023956370228,
-    "drawCalls": 97,
-    "triangles": 282126,
-    "scale": 0.9,
-    "tier": "balanced"
-  },
-  {
-    "frameId": 102,
-    "nowMs": 2509,
-    "frameMs": 16.900000005960464,
-    "fps": 59.17159761226685,
-    "drawCalls": 97,
-    "triangles": 282126,
-    "scale": 0.9,
-    "tier": "balanced"
-  },
-  {
-    "frameId": 103,
-    "nowMs": 2525.2999999970198,
-    "frameMs": 16.299999997019768,
-    "fps": 61.3496932627507,
-    "drawCalls": 97,
-    "triangles": 282126,
-    "scale": 0.9,
-    "tier": "balanced"
-  },
-  {
-    "frameId": 104,
-    "nowMs": 2542,
-    "frameMs": 16.700000002980232,
-    "fps": 59.880239510272034,
-    "drawCalls": 97,
-    "triangles": 282126,
-    "scale": 0.9,
-    "tier": "balanced"
-  },
-  {
-    "frameId": 105,
-    "nowMs": 2558.0999999940395,
-    "frameMs": 16.099999994039536,
-    "fps": 62.11180126523076,
-    "drawCalls": 97,
-    "triangles": 282126,
-    "scale": 0.9,
-    "tier": "balanced"
-  },
-  {
-    "frameId": 106,
-    "nowMs": 2575.2000000029802,
-    "frameMs": 17.100000008940697,
-    "fps": 58.4795321331668,
-    "drawCalls": 97,
-    "triangles": 282126,
-    "scale": 0.9,
-    "tier": "balanced"
-  },
-  {
-    "frameId": 107,
-    "nowMs": 2592.0999999940395,
+    "nowMs": 2489.5999999940395,
     "frameMs": 16.899999991059303,
     "fps": 59.17159766443996,
     "drawCalls": 97,
@@ -380,118 +330,8 @@
     "tier": "balanced"
   },
   {
-    "frameId": 108,
-    "nowMs": 2608.5999999940395,
-    "frameMs": 16.5,
-    "fps": 60.60606060606061,
-    "drawCalls": 97,
-    "triangles": 282126,
-    "scale": 0.9,
-    "tier": "balanced"
-  },
-  {
-    "frameId": 109,
-    "nowMs": 2624.9000000059605,
-    "frameMs": 16.30000001192093,
-    "fps": 61.34969320666593,
-    "drawCalls": 97,
-    "triangles": 282126,
-    "scale": 0.9,
-    "tier": "balanced"
-  },
-  {
-    "frameId": 110,
-    "nowMs": 2642,
-    "frameMs": 17.099999994039536,
-    "fps": 58.47953218412662,
-    "drawCalls": 97,
-    "triangles": 282126,
-    "scale": 0.9,
-    "tier": "balanced"
-  },
-  {
-    "frameId": 111,
-    "nowMs": 2658.7000000029802,
-    "frameMs": 16.700000002980232,
-    "fps": 59.880239510272034,
-    "drawCalls": 97,
-    "triangles": 282126,
-    "scale": 0.9,
-    "tier": "balanced"
-  },
-  {
-    "frameId": 112,
-    "nowMs": 2675,
-    "frameMs": 16.299999997019768,
-    "fps": 61.3496932627507,
-    "drawCalls": 97,
-    "triangles": 282126,
-    "scale": 0.9,
-    "tier": "balanced"
-  },
-  {
-    "frameId": 113,
-    "nowMs": 2691.9000000059605,
-    "frameMs": 16.900000005960464,
-    "fps": 59.17159761226685,
-    "drawCalls": 97,
-    "triangles": 282126,
-    "scale": 0.9,
-    "tier": "balanced"
-  },
-  {
-    "frameId": 114,
-    "nowMs": 2708.7000000029802,
-    "frameMs": 16.799999997019768,
-    "fps": 59.52380953436874,
-    "drawCalls": 97,
-    "triangles": 282126,
-    "scale": 0.9,
-    "tier": "balanced"
-  },
-  {
-    "frameId": 115,
-    "nowMs": 2725.4000000059605,
-    "frameMs": 16.700000002980232,
-    "fps": 59.880239510272034,
-    "drawCalls": 97,
-    "triangles": 282126,
-    "scale": 0.9,
-    "tier": "balanced"
-  },
-  {
-    "frameId": 116,
-    "nowMs": 2742.0999999940395,
-    "frameMs": 16.69999998807907,
-    "fps": 59.88023956370228,
-    "drawCalls": 97,
-    "triangles": 282126,
-    "scale": 0.9,
-    "tier": "balanced"
-  },
-  {
-    "frameId": 117,
-    "nowMs": 2758.0999999940395,
-    "frameMs": 16,
-    "fps": 62.5,
-    "drawCalls": 97,
-    "triangles": 282126,
-    "scale": 0.9,
-    "tier": "balanced"
-  },
-  {
-    "frameId": 118,
-    "nowMs": 2775.5,
-    "frameMs": 17.400000005960464,
-    "fps": 57.471264348129,
-    "drawCalls": 97,
-    "triangles": 282126,
-    "scale": 0.9,
-    "tier": "balanced"
-  },
-  {
-    "frameId": 119,
-    "nowMs": 2791.9000000059605,
+    "frameId": 102,
+    "nowMs": 2506,
     "frameMs": 16.400000005960464,
     "fps": 60.9756097339364,
     "drawCalls": 97,
@@ -500,48 +340,8 @@
     "tier": "balanced"
   },
   {
-    "frameId": 120,
-    "nowMs": 2808.7999999970198,
-    "frameMs": 16.899999991059303,
-    "fps": 59.17159766443996,
-    "drawCalls": 97,
-    "triangles": 282126,
-    "scale": 0.9,
-    "tier": "balanced"
-  },
-  {
-    "frameId": 121,
-    "nowMs": 2825.2999999970198,
-    "frameMs": 16.5,
-    "fps": 60.60606060606061,
-    "drawCalls": 97,
-    "triangles": 282126,
-    "scale": 0.9,
-    "tier": "balanced"
-  },
-  {
-    "frameId": 122,
-    "nowMs": 2842.0999999940395,
-    "frameMs": 16.799999997019768,
-    "fps": 59.52380953436874,
-    "drawCalls": 97,
-    "triangles": 282126,
-    "scale": 0.9,
-    "tier": "balanced"
-  },
-  {
-    "frameId": 123,
-    "nowMs": 2858.7000000029802,
-    "frameMs": 16.600000008940697,
-    "fps": 60.240963822976134,
-    "drawCalls": 97,
-    "triangles": 282126,
-    "scale": 0.9,
-    "tier": "balanced"
-  },
-  {
-    "frameId": 124,
-    "nowMs": 2875.4000000059605,
+    "frameId": 103,
+    "nowMs": 2522.7000000029802,
     "frameMs": 16.700000002980232,
     "fps": 59.880239510272034,
     "drawCalls": 97,
@@ -550,8 +350,8 @@
     "tier": "balanced"
   },
   {
-    "frameId": 125,
-    "nowMs": 2891.5999999940395,
+    "frameId": 104,
+    "nowMs": 2538.8999999910593,
     "frameMs": 16.19999998807907,
     "fps": 61.72839510715184,
     "drawCalls": 97,
@@ -560,28 +360,68 @@
     "tier": "balanced"
   },
   {
-    "frameId": 126,
-    "nowMs": 2908.9000000059605,
-    "frameMs": 17.30000001192093,
-    "fps": 57.80346816826179,
+    "frameId": 105,
+    "nowMs": 2555.7000000029802,
+    "frameMs": 16.80000001192093,
+    "fps": 59.52380948157267,
     "drawCalls": 97,
     "triangles": 282126,
     "scale": 0.9,
     "tier": "balanced"
   },
   {
-    "frameId": 127,
-    "nowMs": 2925.0999999940395,
-    "frameMs": 16.19999998807907,
-    "fps": 61.72839510715184,
+    "frameId": 106,
+    "nowMs": 2572.7000000029802,
+    "frameMs": 17,
+    "fps": 58.8235294117647,
     "drawCalls": 97,
     "triangles": 282126,
     "scale": 0.9,
     "tier": "balanced"
   },
   {
-    "frameId": 128,
-    "nowMs": 2941.5999999940395,
+    "frameId": 107,
+    "nowMs": 2589.2999999970198,
+    "frameMs": 16.599999994039536,
+    "fps": 60.24096387705205,
+    "drawCalls": 97,
+    "triangles": 282126,
+    "scale": 0.9,
+    "tier": "balanced"
+  },
+  {
+    "frameId": 108,
+    "nowMs": 2605.0999999940395,
+    "frameMs": 15.799999997019768,
+    "fps": 63.29113925244445,
+    "drawCalls": 97,
+    "triangles": 282126,
+    "scale": 0.9,
+    "tier": "balanced"
+  },
+  {
+    "frameId": 109,
+    "nowMs": 2622.7999999970198,
+    "frameMs": 17.700000002980232,
+    "fps": 56.497175131730245,
+    "drawCalls": 97,
+    "triangles": 282126,
+    "scale": 0.9,
+    "tier": "balanced"
+  },
+  {
+    "frameId": 110,
+    "nowMs": 2639.5999999940395,
+    "frameMs": 16.799999997019768,
+    "fps": 59.52380953436874,
+    "drawCalls": 97,
+    "triangles": 282126,
+    "scale": 0.9,
+    "tier": "balanced"
+  },
+  {
+    "frameId": 111,
+    "nowMs": 2656.0999999940395,
     "frameMs": 16.5,
     "fps": 60.60606060606061,
     "drawCalls": 97,
@@ -590,10 +430,170 @@
     "tier": "balanced"
   },
   {
-    "frameId": 129,
-    "nowMs": 2959.0999999940395,
+    "frameId": 112,
+    "nowMs": 2672.7999999970198,
+    "frameMs": 16.700000002980232,
+    "fps": 59.880239510272034,
+    "drawCalls": 97,
+    "triangles": 282126,
+    "scale": 0.9,
+    "tier": "balanced"
+  },
+  {
+    "frameId": 113,
+    "nowMs": 2688.5,
+    "frameMs": 15.700000002980232,
+    "fps": 63.69426750383288,
+    "drawCalls": 97,
+    "triangles": 282126,
+    "scale": 0.9,
+    "tier": "balanced"
+  },
+  {
+    "frameId": 114,
+    "nowMs": 2706,
     "frameMs": 17.5,
     "fps": 57.142857142857146,
+    "drawCalls": 97,
+    "triangles": 282126,
+    "scale": 0.9,
+    "tier": "balanced"
+  },
+  {
+    "frameId": 115,
+    "nowMs": 2722.5,
+    "frameMs": 16.5,
+    "fps": 60.60606060606061,
+    "drawCalls": 97,
+    "triangles": 282126,
+    "scale": 0.9,
+    "tier": "balanced"
+  },
+  {
+    "frameId": 116,
+    "nowMs": 2739.0999999940395,
+    "frameMs": 16.599999994039536,
+    "fps": 60.24096387705205,
+    "drawCalls": 97,
+    "triangles": 282126,
+    "scale": 0.9,
+    "tier": "balanced"
+  },
+  {
+    "frameId": 117,
+    "nowMs": 2755.5,
+    "frameMs": 16.400000005960464,
+    "fps": 60.9756097339364,
+    "drawCalls": 97,
+    "triangles": 282126,
+    "scale": 0.9,
+    "tier": "balanced"
+  },
+  {
+    "frameId": 118,
+    "nowMs": 2772.5999999940395,
+    "frameMs": 17.099999994039536,
+    "fps": 58.47953218412662,
+    "drawCalls": 97,
+    "triangles": 282126,
+    "scale": 0.9,
+    "tier": "balanced"
+  },
+  {
+    "frameId": 119,
+    "nowMs": 2788.0999999940395,
+    "frameMs": 15.5,
+    "fps": 64.51612903225806,
+    "drawCalls": 97,
+    "triangles": 282126,
+    "scale": 0.9,
+    "tier": "balanced"
+  },
+  {
+    "frameId": 120,
+    "nowMs": 2806.0999999940395,
+    "frameMs": 18,
+    "fps": 55.55555555555556,
+    "drawCalls": 97,
+    "triangles": 282126,
+    "scale": 0.9,
+    "tier": "balanced"
+  },
+  {
+    "frameId": 121,
+    "nowMs": 2821.5,
+    "frameMs": 15.400000005960464,
+    "fps": 64.93506490993227,
+    "drawCalls": 97,
+    "triangles": 282126,
+    "scale": 0.9,
+    "tier": "balanced"
+  },
+  {
+    "frameId": 122,
+    "nowMs": 2839.2999999970198,
+    "frameMs": 17.799999997019768,
+    "fps": 56.17977529030499,
+    "drawCalls": 97,
+    "triangles": 282126,
+    "scale": 0.9,
+    "tier": "balanced"
+  },
+  {
+    "frameId": 123,
+    "nowMs": 2855.2999999970198,
+    "frameMs": 16,
+    "fps": 62.5,
+    "drawCalls": 97,
+    "triangles": 282126,
+    "scale": 0.9,
+    "tier": "balanced"
+  },
+  {
+    "frameId": 124,
+    "nowMs": 2872.8999999910593,
+    "frameMs": 17.599999994039536,
+    "fps": 56.81818183742402,
+    "drawCalls": 97,
+    "triangles": 282126,
+    "scale": 0.9,
+    "tier": "balanced"
+  },
+  {
+    "frameId": 125,
+    "nowMs": 2889.3999999910593,
+    "frameMs": 16.5,
+    "fps": 60.60606060606061,
+    "drawCalls": 97,
+    "triangles": 282126,
+    "scale": 0.9,
+    "tier": "balanced"
+  },
+  {
+    "frameId": 126,
+    "nowMs": 2905.5999999940395,
+    "frameMs": 16.200000002980232,
+    "fps": 61.728395050372534,
+    "drawCalls": 97,
+    "triangles": 282126,
+    "scale": 0.9,
+    "tier": "balanced"
+  },
+  {
+    "frameId": 127,
+    "nowMs": 2921.7999999970198,
+    "frameMs": 16.200000002980232,
+    "fps": 61.728395050372534,
+    "drawCalls": 97,
+    "triangles": 282126,
+    "scale": 0.9,
+    "tier": "balanced"
+  },
+  {
+    "frameId": 128,
+    "nowMs": 2939.5,
+    "frameMs": 17.700000002980232,
+    "fps": 56.497175131730245,
     "drawCalls": 97,
     "triangles": 282126,
     "scale": 0.9,

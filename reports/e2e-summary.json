@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-10-24T16:16:07.605Z",
+  "generatedAt": "2026-10-24T16:23:41.308Z",
   "browser": "156.0.8078.4",
   "gpu": "ANGLE (Apple, ANGLE Metal Renderer: Apple M5 Max, Unspecified Version)",
   "frames": {
     "sampled": 60,
     "distinctFrameIds": 60,
-    "medianFps": 59.88,
+    "medianFps": 60.241,
     "maxDrawCalls": 97,
     "maxTriangles": 282126,
     "scale": 0.9,
