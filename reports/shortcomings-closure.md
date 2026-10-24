@@ -22,13 +22,15 @@
 
 ---
 
-## 额外补上的三项（上一轮没有、但「世界级」必须有）
+## 额外补上的四项（上一轮没有、但「世界级」必须有）
 
 | 项 | 做法 | 证据 |
 |---|---|---|
 | 体积云的前后遮挡正确 | 云 ray marching 的射线用**场景深度**截断：不透明几何体在前的像素，射线走不到云层 —— 天然得到正确遮挡，不需要额外的深度比较 pass | `tests/render-config.test.js` 断言云着色器必须采样 `uSceneDepth` 并用 `sceneDistance` 截断，且不得使用 Sprite |
 | 资产可审计可复现 | 每张 AI 图记录完整 prompt、node id、生成时间、sha256、处理命令；`build-assets.mjs` 可从原始图完整重跑（37 个产物逐字节可复现） | `public/assets/PROVENANCE.md`；`npm run verify:assets` 独立复算边界差 / 字节数 / sha256 |
 | 零外部运行时依赖 | 贴图、海报、字体全部进仓库；E2E 记录所有请求并断言跨域企图为 0 | `reports/evidence/network.json` |
+
+| 表面细节层（消「贴了图的盒子」感） | 四层叠加：① 几何级顶点扰动（按世界坐标，共享顶点不撕裂，墙面不再是完美平面、边缘高光会断）② 片元级**逐砌块**亮度/色偏 + 灰缝加深（每块石头是独立的）③ 墙脚碎石打断建筑与地面那条过于干净的边 ④ SSAO 提到 16 采样 / 半径 3.4 | `src/world/surface-detail.mjs`、`src/core/resources.js` 的 `applyMasonryDetail`；对比 `reports/evidence/detail-closeup.png` | 
 
 ---
 
