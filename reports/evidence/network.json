@@ -1,0 +1,1366 @@
+{
+  "totalRequests": 340,
+  "externalAttempts": [],
+  "all": [
+    {
+      "url": "http://127.0.0.1:4173/?debug=1&intro=0&view=hero&time=dawn&weather=clear&tier=balanced",
+      "method": "GET"
+    },
+    {
+      "url": "http://127.0.0.1:4173/assets/fonts/noto-sans-sc-400.woff2",
+      "method": "GET"
+    },
+    {
+      "url": "http://127.0.0.1:4173/assets/fonts/noto-sans-sc-500.woff2",
+      "method": "GET"
+    },
+    {
+      "url": "http://127.0.0.1:4173/assets/fonts/fonts.css",
+      "method": "GET"
+    },
+    {
+      "url": "http://127.0.0.1:4173/assets/index-B6pUoVP7.js",
+      "method": "GET"
+    },
+    {
+      "url": "http://127.0.0.1:4173/assets/index-CMY6Tj7T.css",
+      "method": "GET"
+    },
+    {
+      "url": "http://127.0.0.1:4173/assets/poster/poster.jpg",
+      "method": "GET"
+    },
+    {
+      "url": "http://127.0.0.1:4173/assets/fonts/inter-400.woff2",
+      "method": "GET"
+    },
+    {
+      "url": "http://127.0.0.1:4173/assets/fonts/noto-serif-sc-600.woff2",
+      "method": "GET"
+    },
+    {
+      "url": "http://127.0.0.1:4173/assets/materials/A01-castle-ashlar-albedo.webp",
+      "method": "GET"
+    },
+    {
+      "url": "http://127.0.0.1:4173/assets/materials/A01-castle-ashlar-normal.webp",
+      "method": "GET"
+    },
+    {
+      "url": "http://127.0.0.1:4173/assets/materials/A01-castle-ashlar-roughness.webp",
+      "method": "GET"
+    },
+    {
+      "url": "http://127.0.0.1:4173/assets/materials/A02-sandstone-voussoir-albedo.webp",
+      "method": "GET"
+    },
+    {
+      "url": "http://127.0.0.1:4173/assets/materials/A02-sandstone-voussoir-normal.webp",
+      "method": "GET"
+    },
+    {
+      "url": "http://127.0.0.1:4173/assets/materials/A02-sandstone-voussoir-roughness.webp",
+      "method": "GET"
+    },
+    {
+      "url": "http://127.0.0.1:4173/assets/materials/A03-basalt-foundation-albedo.webp",
+      "method": "GET"
+    },
+    {
+      "url": "http://127.0.0.1:4173/assets/materials/A03-basalt-foundation-normal.webp",
+      "method": "GET"
+    },
+    {
+      "url": "http://127.0.0.1:4173/assets/materials/A03-basalt-foundation-roughness.webp",
+      "method": "GET"
+    },
+    {
+      "url": "http://127.0.0.1:4173/assets/materials/A04-slate-roof-albedo.webp",
+      "method": "GET"
+    },
+    {
+      "url": "http://127.0.0.1:4173/assets/materials/A04-slate-roof-normal.webp",
+      "method": "GET"
+    },
+    {
+      "url": "http://127.0.0.1:4173/assets/materials/A04-slate-roof-roughness.webp",
+      "method": "GET"
+    },
+    {
+      "url": "http://127.0.0.1:4173/assets/materials/A05-stratified-cliff-albedo.webp",
+      "method": "GET"
+    },
+    {
+      "url": "http://127.0.0.1:4173/assets/materials/A05-stratified-cliff-normal.webp",
+      "method": "GET"
+    },
+    {
+      "url": "http://127.0.0.1:4173/assets/materials/A05-stratified-cliff-roughness.webp",
+      "method": "GET"
+    },
+    {
+      "url": "http://127.0.0.1:4173/assets/materials/A06-flagstone-path-albedo.webp",
+      "method": "GET"
+    },
+    {
+      "url": "http://127.0.0.1:4173/assets/materials/A06-flagstone-path-normal.webp",
+      "method": "GET"
+    },
+    {
+      "url": "http://127.0.0.1:4173/assets/materials/A06-flagstone-path-roughness.webp",
+      "method": "GET"
+    },
+    {
+      "url": "http://127.0.0.1:4173/assets/materials/A07-carved-oak-albedo.webp",
+      "method": "GET"
+    },
+    {
+      "url": "http://127.0.0.1:4173/assets/materials/A07-carved-oak-normal.webp",
+      "method": "GET"
+    },
+    {
+      "url": "http://127.0.0.1:4173/assets/materials/A07-carved-oak-roughness.webp",
+      "method": "GET"
+    },
+    {
+      "url": "http://127.0.0.1:4173/assets/materials/A08-aged-bronze-albedo.webp",
+      "method": "GET"
+    },
+    {
+      "url": "http://127.0.0.1:4173/assets/materials/A08-aged-bronze-normal.webp",
+      "method": "GET"
+    },
+    {
+      "url": "http://127.0.0.1:4173/assets/materials/A08-aged-bronze-roughness.webp",
+      "method": "GET"
+    },
+    {
+      "url": "http://127.0.0.1:4173/assets/poster/poster.jpg",
+      "method": "GET"
+    },
+    {
+      "url": "http://127.0.0.1:4173/?debug=1&intro=0&view=hero&time=dawn&weather=clear&tier=balanced",
+      "method": "GET"
+    },
+    {
+      "url": "http://127.0.0.1:4173/assets/fonts/noto-sans-sc-400.woff2",
+      "method": "GET"
+    },
+    {
+      "url": "http://127.0.0.1:4173/assets/fonts/noto-sans-sc-500.woff2",
+      "method": "GET"
+    },
+    {
+      "url": "http://127.0.0.1:4173/assets/fonts/fonts.css",
+      "method": "GET"
+    },
+    {
+      "url": "http://127.0.0.1:4173/assets/index-B6pUoVP7.js",
+      "method": "GET"
+    },
+    {
+      "url": "http://127.0.0.1:4173/assets/index-CMY6Tj7T.css",
+      "method": "GET"
+    },
+    {
+      "url": "http://127.0.0.1:4173/assets/poster/poster.jpg",
+      "method": "GET"
+    },
+    {
+      "url": "http://127.0.0.1:4173/assets/fonts/inter-400.woff2",
+      "method": "GET"
+    },
+    {
+      "url": "http://127.0.0.1:4173/assets/fonts/noto-serif-sc-600.woff2",
+      "method": "GET"
+    },
+    {
+      "url": "http://127.0.0.1:4173/assets/materials/A01-castle-ashlar-albedo.webp",
+      "method": "GET"
+    },
+    {
+      "url": "http://127.0.0.1:4173/assets/materials/A01-castle-ashlar-normal.webp",
+      "method": "GET"
+    },
+    {
+      "url": "http://127.0.0.1:4173/assets/materials/A01-castle-ashlar-roughness.webp",
+      "method": "GET"
+    },
+    {
+      "url": "http://127.0.0.1:4173/assets/materials/A02-sandstone-voussoir-albedo.webp",
+      "method": "GET"
+    },
+    {
+      "url": "http://127.0.0.1:4173/assets/materials/A02-sandstone-voussoir-normal.webp",
+      "method": "GET"
+    },
+    {
+      "url": "http://127.0.0.1:4173/assets/materials/A02-sandstone-voussoir-roughness.webp",
+      "method": "GET"
+    },
+    {
+      "url": "http://127.0.0.1:4173/assets/materials/A03-basalt-foundation-albedo.webp",
+      "method": "GET"
+    },
+    {
+      "url": "http://127.0.0.1:4173/assets/materials/A03-basalt-foundation-normal.webp",
+      "method": "GET"
+    },
+    {
+      "url": "http://127.0.0.1:4173/assets/materials/A03-basalt-foundation-roughness.webp",
+      "method": "GET"
+    },
+    {
+      "url": "http://127.0.0.1:4173/assets/materials/A04-slate-roof-albedo.webp",
+      "method": "GET"
+    },
+    {
+      "url": "http://127.0.0.1:4173/assets/materials/A04-slate-roof-normal.webp",
+      "method": "GET"
+    },
+    {
+      "url": "http://127.0.0.1:4173/assets/materials/A04-slate-roof-roughness.webp",
+      "method": "GET"
+    },
+    {
+      "url": "http://127.0.0.1:4173/assets/materials/A05-stratified-cliff-albedo.webp",
+      "method": "GET"
+    },
+    {
+      "url": "http://127.0.0.1:4173/assets/materials/A05-stratified-cliff-normal.webp",
+      "method": "GET"
+    },
+    {
+      "url": "http://127.0.0.1:4173/assets/materials/A05-stratified-cliff-roughness.webp",
+      "method": "GET"
+    },
+    {
+      "url": "http://127.0.0.1:4173/assets/materials/A06-flagstone-path-albedo.webp",
+      "method": "GET"
+    },
+    {
+      "url": "http://127.0.0.1:4173/assets/materials/A06-flagstone-path-normal.webp",
+      "method": "GET"
+    },
+    {
+      "url": "http://127.0.0.1:4173/assets/materials/A06-flagstone-path-roughness.webp",
+      "method": "GET"
+    },
+    {
+      "url": "http://127.0.0.1:4173/assets/materials/A07-carved-oak-albedo.webp",
+      "method": "GET"
+    },
+    {
+      "url": "http://127.0.0.1:4173/assets/materials/A07-carved-oak-normal.webp",
+      "method": "GET"
+    },
+    {
+      "url": "http://127.0.0.1:4173/assets/materials/A07-carved-oak-roughness.webp",
+      "method": "GET"
+    },
+    {
+      "url": "http://127.0.0.1:4173/assets/materials/A08-aged-bronze-albedo.webp",
+      "method": "GET"
+    },
+    {
+      "url": "http://127.0.0.1:4173/assets/materials/A08-aged-bronze-normal.webp",
+      "method": "GET"
+    },
+    {
+      "url": "http://127.0.0.1:4173/assets/materials/A08-aged-bronze-roughness.webp",
+      "method": "GET"
+    },
+    {
+      "url": "http://127.0.0.1:4173/assets/poster/poster.jpg",
+      "method": "GET"
+    },
+    {
+      "url": "http://127.0.0.1:4173/?debug=1&intro=0&view=side&time=dawn&weather=clear&tier=balanced",
+      "method": "GET"
+    },
+    {
+      "url": "http://127.0.0.1:4173/assets/fonts/noto-sans-sc-400.woff2",
+      "method": "GET"
+    },
+    {
+      "url": "http://127.0.0.1:4173/assets/fonts/noto-sans-sc-500.woff2",
+      "method": "GET"
+    },
+    {
+      "url": "http://127.0.0.1:4173/assets/fonts/fonts.css",
+      "method": "GET"
+    },
+    {
+      "url": "http://127.0.0.1:4173/assets/index-B6pUoVP7.js",
+      "method": "GET"
+    },
+    {
+      "url": "http://127.0.0.1:4173/assets/index-CMY6Tj7T.css",
+      "method": "GET"
+    },
+    {
+      "url": "http://127.0.0.1:4173/assets/poster/poster.jpg",
+      "method": "GET"
+    },
+    {
+      "url": "http://127.0.0.1:4173/assets/fonts/inter-400.woff2",
+      "method": "GET"
+    },
+    {
+      "url": "http://127.0.0.1:4173/assets/fonts/noto-serif-sc-600.woff2",
+      "method": "GET"
+    },
+    {
+      "url": "http://127.0.0.1:4173/assets/materials/A01-castle-ashlar-albedo.webp",
+      "method": "GET"
+    },
+    {
+      "url": "http://127.0.0.1:4173/assets/materials/A01-castle-ashlar-normal.webp",
+      "method": "GET"
+    },
+    {
+      "url": "http://127.0.0.1:4173/assets/materials/A01-castle-ashlar-roughness.webp",
+      "method": "GET"
+    },
+    {
+      "url": "http://127.0.0.1:4173/assets/materials/A02-sandstone-voussoir-albedo.webp",
+      "method": "GET"
+    },
+    {
+      "url": "http://127.0.0.1:4173/assets/materials/A02-sandstone-voussoir-normal.webp",
+      "method": "GET"
+    },
+    {
+      "url": "http://127.0.0.1:4173/assets/materials/A02-sandstone-voussoir-roughness.webp",
+      "method": "GET"
+    },
+    {
+      "url": "http://127.0.0.1:4173/assets/materials/A03-basalt-foundation-albedo.webp",
+      "method": "GET"
+    },
+    {
+      "url": "http://127.0.0.1:4173/assets/materials/A03-basalt-foundation-normal.webp",
+      "method": "GET"
+    },
+    {
+      "url": "http://127.0.0.1:4173/assets/materials/A03-basalt-foundation-roughness.webp",
+      "method": "GET"
+    },
+    {
+      "url": "http://127.0.0.1:4173/assets/materials/A04-slate-roof-albedo.webp",
+      "method": "GET"
+    },
+    {
+      "url": "http://127.0.0.1:4173/assets/materials/A04-slate-roof-normal.webp",
+      "method": "GET"
+    },
+    {
+      "url": "http://127.0.0.1:4173/assets/materials/A04-slate-roof-roughness.webp",
+      "method": "GET"
+    },
+    {
+      "url": "http://127.0.0.1:4173/assets/materials/A05-stratified-cliff-albedo.webp",
+      "method": "GET"
+    },
+    {
+      "url": "http://127.0.0.1:4173/assets/materials/A05-stratified-cliff-normal.webp",
+      "method": "GET"
+    },
+    {
+      "url": "http://127.0.0.1:4173/assets/materials/A05-stratified-cliff-roughness.webp",
+      "method": "GET"
+    },
+    {
+      "url": "http://127.0.0.1:4173/assets/materials/A06-flagstone-path-albedo.webp",
+      "method": "GET"
+    },
+    {
+      "url": "http://127.0.0.1:4173/assets/materials/A06-flagstone-path-normal.webp",
+      "method": "GET"
+    },
+    {
+      "url": "http://127.0.0.1:4173/assets/materials/A06-flagstone-path-roughness.webp",
+      "method": "GET"
+    },
+    {
+      "url": "http://127.0.0.1:4173/assets/materials/A07-carved-oak-albedo.webp",
+      "method": "GET"
+    },
+    {
+      "url": "http://127.0.0.1:4173/assets/materials/A07-carved-oak-normal.webp",
+      "method": "GET"
+    },
+    {
+      "url": "http://127.0.0.1:4173/assets/materials/A07-carved-oak-roughness.webp",
+      "method": "GET"
+    },
+    {
+      "url": "http://127.0.0.1:4173/assets/materials/A08-aged-bronze-albedo.webp",
+      "method": "GET"
+    },
+    {
+      "url": "http://127.0.0.1:4173/assets/materials/A08-aged-bronze-normal.webp",
+      "method": "GET"
+    },
+    {
+      "url": "http://127.0.0.1:4173/assets/materials/A08-aged-bronze-roughness.webp",
+      "method": "GET"
+    },
+    {
+      "url": "http://127.0.0.1:4173/assets/poster/poster.jpg",
+      "method": "GET"
+    },
+    {
+      "url": "http://127.0.0.1:4173/?debug=1&intro=0&view=detail&time=dawn&weather=clear&tier=balanced",
+      "method": "GET"
+    },
+    {
+      "url": "http://127.0.0.1:4173/assets/fonts/noto-sans-sc-400.woff2",
+      "method": "GET"
+    },
+    {
+      "url": "http://127.0.0.1:4173/assets/fonts/noto-sans-sc-500.woff2",
+      "method": "GET"
+    },
+    {
+      "url": "http://127.0.0.1:4173/assets/fonts/fonts.css",
+      "method": "GET"
+    },
+    {
+      "url": "http://127.0.0.1:4173/assets/index-B6pUoVP7.js",
+      "method": "GET"
+    },
+    {
+      "url": "http://127.0.0.1:4173/assets/index-CMY6Tj7T.css",
+      "method": "GET"
+    },
+    {
+      "url": "http://127.0.0.1:4173/assets/poster/poster.jpg",
+      "method": "GET"
+    },
+    {
+      "url": "http://127.0.0.1:4173/assets/fonts/inter-400.woff2",
+      "method": "GET"
+    },
+    {
+      "url": "http://127.0.0.1:4173/assets/fonts/noto-serif-sc-600.woff2",
+      "method": "GET"
+    },
+    {
+      "url": "http://127.0.0.1:4173/assets/materials/A01-castle-ashlar-albedo.webp",
+      "method": "GET"
+    },
+    {
+      "url": "http://127.0.0.1:4173/assets/materials/A01-castle-ashlar-normal.webp",
+      "method": "GET"
+    },
+    {
+      "url": "http://127.0.0.1:4173/assets/materials/A01-castle-ashlar-roughness.webp",
+      "method": "GET"
+    },
+    {
+      "url": "http://127.0.0.1:4173/assets/materials/A02-sandstone-voussoir-albedo.webp",
+      "method": "GET"
+    },
+    {
+      "url": "http://127.0.0.1:4173/assets/materials/A02-sandstone-voussoir-normal.webp",
+      "method": "GET"
+    },
+    {
+      "url": "http://127.0.0.1:4173/assets/materials/A02-sandstone-voussoir-roughness.webp",
+      "method": "GET"
+    },
+    {
+      "url": "http://127.0.0.1:4173/assets/materials/A03-basalt-foundation-albedo.webp",
+      "method": "GET"
+    },
+    {
+      "url": "http://127.0.0.1:4173/assets/materials/A03-basalt-foundation-normal.webp",
+      "method": "GET"
+    },
+    {
+      "url": "http://127.0.0.1:4173/assets/materials/A03-basalt-foundation-roughness.webp",
+      "method": "GET"
+    },
+    {
+      "url": "http://127.0.0.1:4173/assets/materials/A04-slate-roof-albedo.webp",
+      "method": "GET"
+    },
+    {
+      "url": "http://127.0.0.1:4173/assets/materials/A04-slate-roof-normal.webp",
+      "method": "GET"
+    },
+    {
+      "url": "http://127.0.0.1:4173/assets/materials/A04-slate-roof-roughness.webp",
+      "method": "GET"
+    },
+    {
+      "url": "http://127.0.0.1:4173/assets/materials/A05-stratified-cliff-albedo.webp",
+      "method": "GET"
+    },
+    {
+      "url": "http://127.0.0.1:4173/assets/materials/A05-stratified-cliff-normal.webp",
+      "method": "GET"
+    },
+    {
+      "url": "http://127.0.0.1:4173/assets/materials/A05-stratified-cliff-roughness.webp",
+      "method": "GET"
+    },
+    {
+      "url": "http://127.0.0.1:4173/assets/materials/A06-flagstone-path-albedo.webp",
+      "method": "GET"
+    },
+    {
+      "url": "http://127.0.0.1:4173/assets/materials/A06-flagstone-path-normal.webp",
+      "method": "GET"
+    },
+    {
+      "url": "http://127.0.0.1:4173/assets/materials/A06-flagstone-path-roughness.webp",
+      "method": "GET"
+    },
+    {
+      "url": "http://127.0.0.1:4173/assets/materials/A07-carved-oak-albedo.webp",
+      "method": "GET"
+    },
+    {
+      "url": "http://127.0.0.1:4173/assets/materials/A07-carved-oak-normal.webp",
+      "method": "GET"
+    },
+    {
+      "url": "http://127.0.0.1:4173/assets/materials/A07-carved-oak-roughness.webp",
+      "method": "GET"
+    },
+    {
+      "url": "http://127.0.0.1:4173/assets/materials/A08-aged-bronze-albedo.webp",
+      "method": "GET"
+    },
+    {
+      "url": "http://127.0.0.1:4173/assets/materials/A08-aged-bronze-normal.webp",
+      "method": "GET"
+    },
+    {
+      "url": "http://127.0.0.1:4173/assets/materials/A08-aged-bronze-roughness.webp",
+      "method": "GET"
+    },
+    {
+      "url": "http://127.0.0.1:4173/assets/poster/poster.jpg",
+      "method": "GET"
+    },
+    {
+      "url": "http://127.0.0.1:4173/?debug=1&intro=0&view=rock&time=dawn&weather=clear&tier=balanced",
+      "method": "GET"
+    },
+    {
+      "url": "http://127.0.0.1:4173/assets/fonts/noto-sans-sc-400.woff2",
+      "method": "GET"
+    },
+    {
+      "url": "http://127.0.0.1:4173/assets/fonts/noto-sans-sc-500.woff2",
+      "method": "GET"
+    },
+    {
+      "url": "http://127.0.0.1:4173/assets/fonts/fonts.css",
+      "method": "GET"
+    },
+    {
+      "url": "http://127.0.0.1:4173/assets/index-B6pUoVP7.js",
+      "method": "GET"
+    },
+    {
+      "url": "http://127.0.0.1:4173/assets/index-CMY6Tj7T.css",
+      "method": "GET"
+    },
+    {
+      "url": "http://127.0.0.1:4173/assets/poster/poster.jpg",
+      "method": "GET"
+    },
+    {
+      "url": "http://127.0.0.1:4173/assets/fonts/inter-400.woff2",
+      "method": "GET"
+    },
+    {
+      "url": "http://127.0.0.1:4173/assets/fonts/noto-serif-sc-600.woff2",
+      "method": "GET"
+    },
+    {
+      "url": "http://127.0.0.1:4173/assets/materials/A01-castle-ashlar-albedo.webp",
+      "method": "GET"
+    },
+    {
+      "url": "http://127.0.0.1:4173/assets/materials/A01-castle-ashlar-normal.webp",
+      "method": "GET"
+    },
+    {
+      "url": "http://127.0.0.1:4173/assets/materials/A01-castle-ashlar-roughness.webp",
+      "method": "GET"
+    },
+    {
+      "url": "http://127.0.0.1:4173/assets/materials/A02-sandstone-voussoir-albedo.webp",
+      "method": "GET"
+    },
+    {
+      "url": "http://127.0.0.1:4173/assets/materials/A02-sandstone-voussoir-normal.webp",
+      "method": "GET"
+    },
+    {
+      "url": "http://127.0.0.1:4173/assets/materials/A02-sandstone-voussoir-roughness.webp",
+      "method": "GET"
+    },
+    {
+      "url": "http://127.0.0.1:4173/assets/materials/A03-basalt-foundation-albedo.webp",
+      "method": "GET"
+    },
+    {
+      "url": "http://127.0.0.1:4173/assets/materials/A03-basalt-foundation-normal.webp",
+      "method": "GET"
+    },
+    {
+      "url": "http://127.0.0.1:4173/assets/materials/A03-basalt-foundation-roughness.webp",
+      "method": "GET"
+    },
+    {
+      "url": "http://127.0.0.1:4173/assets/materials/A04-slate-roof-albedo.webp",
+      "method": "GET"
+    },
+    {
+      "url": "http://127.0.0.1:4173/assets/materials/A04-slate-roof-normal.webp",
+      "method": "GET"
+    },
+    {
+      "url": "http://127.0.0.1:4173/assets/materials/A04-slate-roof-roughness.webp",
+      "method": "GET"
+    },
+    {
+      "url": "http://127.0.0.1:4173/assets/materials/A05-stratified-cliff-albedo.webp",
+      "method": "GET"
+    },
+    {
+      "url": "http://127.0.0.1:4173/assets/materials/A05-stratified-cliff-normal.webp",
+      "method": "GET"
+    },
+    {
+      "url": "http://127.0.0.1:4173/assets/materials/A05-stratified-cliff-roughness.webp",
+      "method": "GET"
+    },
+    {
+      "url": "http://127.0.0.1:4173/assets/materials/A06-flagstone-path-albedo.webp",
+      "method": "GET"
+    },
+    {
+      "url": "http://127.0.0.1:4173/assets/materials/A06-flagstone-path-normal.webp",
+      "method": "GET"
+    },
+    {
+      "url": "http://127.0.0.1:4173/assets/materials/A06-flagstone-path-roughness.webp",
+      "method": "GET"
+    },
+    {
+      "url": "http://127.0.0.1:4173/assets/materials/A07-carved-oak-albedo.webp",
+      "method": "GET"
+    },
+    {
+      "url": "http://127.0.0.1:4173/assets/materials/A07-carved-oak-normal.webp",
+      "method": "GET"
+    },
+    {
+      "url": "http://127.0.0.1:4173/assets/materials/A07-carved-oak-roughness.webp",
+      "method": "GET"
+    },
+    {
+      "url": "http://127.0.0.1:4173/assets/materials/A08-aged-bronze-albedo.webp",
+      "method": "GET"
+    },
+    {
+      "url": "http://127.0.0.1:4173/assets/materials/A08-aged-bronze-normal.webp",
+      "method": "GET"
+    },
+    {
+      "url": "http://127.0.0.1:4173/assets/materials/A08-aged-bronze-roughness.webp",
+      "method": "GET"
+    },
+    {
+      "url": "http://127.0.0.1:4173/assets/poster/poster.jpg",
+      "method": "GET"
+    },
+    {
+      "url": "http://127.0.0.1:4173/?debug=1&intro=0&view=hero&time=night&weather=clear&tier=balanced",
+      "method": "GET"
+    },
+    {
+      "url": "http://127.0.0.1:4173/assets/fonts/noto-sans-sc-400.woff2",
+      "method": "GET"
+    },
+    {
+      "url": "http://127.0.0.1:4173/assets/fonts/noto-sans-sc-500.woff2",
+      "method": "GET"
+    },
+    {
+      "url": "http://127.0.0.1:4173/assets/fonts/fonts.css",
+      "method": "GET"
+    },
+    {
+      "url": "http://127.0.0.1:4173/assets/index-B6pUoVP7.js",
+      "method": "GET"
+    },
+    {
+      "url": "http://127.0.0.1:4173/assets/index-CMY6Tj7T.css",
+      "method": "GET"
+    },
+    {
+      "url": "http://127.0.0.1:4173/assets/poster/poster.jpg",
+      "method": "GET"
+    },
+    {
+      "url": "http://127.0.0.1:4173/assets/fonts/inter-400.woff2",
+      "method": "GET"
+    },
+    {
+      "url": "http://127.0.0.1:4173/assets/fonts/noto-serif-sc-600.woff2",
+      "method": "GET"
+    },
+    {
+      "url": "http://127.0.0.1:4173/assets/materials/A01-castle-ashlar-albedo.webp",
+      "method": "GET"
+    },
+    {
+      "url": "http://127.0.0.1:4173/assets/materials/A01-castle-ashlar-normal.webp",
+      "method": "GET"
+    },
+    {
+      "url": "http://127.0.0.1:4173/assets/materials/A01-castle-ashlar-roughness.webp",
+      "method": "GET"
+    },
+    {
+      "url": "http://127.0.0.1:4173/assets/materials/A02-sandstone-voussoir-albedo.webp",
+      "method": "GET"
+    },
+    {
+      "url": "http://127.0.0.1:4173/assets/materials/A02-sandstone-voussoir-normal.webp",
+      "method": "GET"
+    },
+    {
+      "url": "http://127.0.0.1:4173/assets/materials/A02-sandstone-voussoir-roughness.webp",
+      "method": "GET"
+    },
+    {
+      "url": "http://127.0.0.1:4173/assets/materials/A03-basalt-foundation-albedo.webp",
+      "method": "GET"
+    },
+    {
+      "url": "http://127.0.0.1:4173/assets/materials/A03-basalt-foundation-normal.webp",
+      "method": "GET"
+    },
+    {
+      "url": "http://127.0.0.1:4173/assets/materials/A03-basalt-foundation-roughness.webp",
+      "method": "GET"
+    },
+    {
+      "url": "http://127.0.0.1:4173/assets/materials/A04-slate-roof-albedo.webp",
+      "method": "GET"
+    },
+    {
+      "url": "http://127.0.0.1:4173/assets/materials/A04-slate-roof-normal.webp",
+      "method": "GET"
+    },
+    {
+      "url": "http://127.0.0.1:4173/assets/materials/A04-slate-roof-roughness.webp",
+      "method": "GET"
+    },
+    {
+      "url": "http://127.0.0.1:4173/assets/materials/A05-stratified-cliff-albedo.webp",
+      "method": "GET"
+    },
+    {
+      "url": "http://127.0.0.1:4173/assets/materials/A05-stratified-cliff-normal.webp",
+      "method": "GET"
+    },
+    {
+      "url": "http://127.0.0.1:4173/assets/materials/A05-stratified-cliff-roughness.webp",
+      "method": "GET"
+    },
+    {
+      "url": "http://127.0.0.1:4173/assets/materials/A06-flagstone-path-albedo.webp",
+      "method": "GET"
+    },
+    {
+      "url": "http://127.0.0.1:4173/assets/materials/A06-flagstone-path-normal.webp",
+      "method": "GET"
+    },
+    {
+      "url": "http://127.0.0.1:4173/assets/materials/A06-flagstone-path-roughness.webp",
+      "method": "GET"
+    },
+    {
+      "url": "http://127.0.0.1:4173/assets/materials/A07-carved-oak-albedo.webp",
+      "method": "GET"
+    },
+    {
+      "url": "http://127.0.0.1:4173/assets/materials/A07-carved-oak-normal.webp",
+      "method": "GET"
+    },
+    {
+      "url": "http://127.0.0.1:4173/assets/materials/A07-carved-oak-roughness.webp",
+      "method": "GET"
+    },
+    {
+      "url": "http://127.0.0.1:4173/assets/materials/A08-aged-bronze-albedo.webp",
+      "method": "GET"
+    },
+    {
+      "url": "http://127.0.0.1:4173/assets/materials/A08-aged-bronze-normal.webp",
+      "method": "GET"
+    },
+    {
+      "url": "http://127.0.0.1:4173/assets/materials/A08-aged-bronze-roughness.webp",
+      "method": "GET"
+    },
+    {
+      "url": "http://127.0.0.1:4173/assets/poster/poster.jpg",
+      "method": "GET"
+    },
+    {
+      "url": "http://127.0.0.1:4173/?debug=1&intro=0&view=hero&time=sunset&weather=storm&tier=balanced",
+      "method": "GET"
+    },
+    {
+      "url": "http://127.0.0.1:4173/assets/fonts/noto-sans-sc-400.woff2",
+      "method": "GET"
+    },
+    {
+      "url": "http://127.0.0.1:4173/assets/fonts/noto-sans-sc-500.woff2",
+      "method": "GET"
+    },
+    {
+      "url": "http://127.0.0.1:4173/assets/fonts/fonts.css",
+      "method": "GET"
+    },
+    {
+      "url": "http://127.0.0.1:4173/assets/index-B6pUoVP7.js",
+      "method": "GET"
+    },
+    {
+      "url": "http://127.0.0.1:4173/assets/index-CMY6Tj7T.css",
+      "method": "GET"
+    },
+    {
+      "url": "http://127.0.0.1:4173/assets/poster/poster.jpg",
+      "method": "GET"
+    },
+    {
+      "url": "http://127.0.0.1:4173/assets/fonts/inter-400.woff2",
+      "method": "GET"
+    },
+    {
+      "url": "http://127.0.0.1:4173/assets/fonts/noto-serif-sc-600.woff2",
+      "method": "GET"
+    },
+    {
+      "url": "http://127.0.0.1:4173/assets/materials/A01-castle-ashlar-albedo.webp",
+      "method": "GET"
+    },
+    {
+      "url": "http://127.0.0.1:4173/assets/materials/A01-castle-ashlar-normal.webp",
+      "method": "GET"
+    },
+    {
+      "url": "http://127.0.0.1:4173/assets/materials/A01-castle-ashlar-roughness.webp",
+      "method": "GET"
+    },
+    {
+      "url": "http://127.0.0.1:4173/assets/materials/A02-sandstone-voussoir-albedo.webp",
+      "method": "GET"
+    },
+    {
+      "url": "http://127.0.0.1:4173/assets/materials/A02-sandstone-voussoir-normal.webp",
+      "method": "GET"
+    },
+    {
+      "url": "http://127.0.0.1:4173/assets/materials/A02-sandstone-voussoir-roughness.webp",
+      "method": "GET"
+    },
+    {
+      "url": "http://127.0.0.1:4173/assets/materials/A03-basalt-foundation-albedo.webp",
+      "method": "GET"
+    },
+    {
+      "url": "http://127.0.0.1:4173/assets/materials/A03-basalt-foundation-normal.webp",
+      "method": "GET"
+    },
+    {
+      "url": "http://127.0.0.1:4173/assets/materials/A03-basalt-foundation-roughness.webp",
+      "method": "GET"
+    },
+    {
+      "url": "http://127.0.0.1:4173/assets/materials/A04-slate-roof-albedo.webp",
+      "method": "GET"
+    },
+    {
+      "url": "http://127.0.0.1:4173/assets/materials/A04-slate-roof-normal.webp",
+      "method": "GET"
+    },
+    {
+      "url": "http://127.0.0.1:4173/assets/materials/A04-slate-roof-roughness.webp",
+      "method": "GET"
+    },
+    {
+      "url": "http://127.0.0.1:4173/assets/materials/A05-stratified-cliff-albedo.webp",
+      "method": "GET"
+    },
+    {
+      "url": "http://127.0.0.1:4173/assets/materials/A05-stratified-cliff-normal.webp",
+      "method": "GET"
+    },
+    {
+      "url": "http://127.0.0.1:4173/assets/materials/A05-stratified-cliff-roughness.webp",
+      "method": "GET"
+    },
+    {
+      "url": "http://127.0.0.1:4173/assets/materials/A06-flagstone-path-albedo.webp",
+      "method": "GET"
+    },
+    {
+      "url": "http://127.0.0.1:4173/assets/materials/A06-flagstone-path-normal.webp",
+      "method": "GET"
+    },
+    {
+      "url": "http://127.0.0.1:4173/assets/materials/A06-flagstone-path-roughness.webp",
+      "method": "GET"
+    },
+    {
+      "url": "http://127.0.0.1:4173/assets/materials/A07-carved-oak-albedo.webp",
+      "method": "GET"
+    },
+    {
+      "url": "http://127.0.0.1:4173/assets/materials/A07-carved-oak-normal.webp",
+      "method": "GET"
+    },
+    {
+      "url": "http://127.0.0.1:4173/assets/materials/A07-carved-oak-roughness.webp",
+      "method": "GET"
+    },
+    {
+      "url": "http://127.0.0.1:4173/assets/materials/A08-aged-bronze-albedo.webp",
+      "method": "GET"
+    },
+    {
+      "url": "http://127.0.0.1:4173/assets/materials/A08-aged-bronze-normal.webp",
+      "method": "GET"
+    },
+    {
+      "url": "http://127.0.0.1:4173/assets/materials/A08-aged-bronze-roughness.webp",
+      "method": "GET"
+    },
+    {
+      "url": "http://127.0.0.1:4173/assets/poster/poster.jpg",
+      "method": "GET"
+    },
+    {
+      "url": "http://127.0.0.1:4173/?debug=1&intro=0&view=hero&time=dawn&weather=clear&tier=low",
+      "method": "GET"
+    },
+    {
+      "url": "http://127.0.0.1:4173/assets/fonts/noto-sans-sc-400.woff2",
+      "method": "GET"
+    },
+    {
+      "url": "http://127.0.0.1:4173/assets/fonts/noto-sans-sc-500.woff2",
+      "method": "GET"
+    },
+    {
+      "url": "http://127.0.0.1:4173/assets/fonts/fonts.css",
+      "method": "GET"
+    },
+    {
+      "url": "http://127.0.0.1:4173/assets/index-B6pUoVP7.js",
+      "method": "GET"
+    },
+    {
+      "url": "http://127.0.0.1:4173/assets/index-CMY6Tj7T.css",
+      "method": "GET"
+    },
+    {
+      "url": "http://127.0.0.1:4173/assets/poster/poster.jpg",
+      "method": "GET"
+    },
+    {
+      "url": "http://127.0.0.1:4173/assets/fonts/inter-400.woff2",
+      "method": "GET"
+    },
+    {
+      "url": "http://127.0.0.1:4173/assets/fonts/noto-serif-sc-600.woff2",
+      "method": "GET"
+    },
+    {
+      "url": "http://127.0.0.1:4173/assets/materials/A01-castle-ashlar-albedo.webp",
+      "method": "GET"
+    },
+    {
+      "url": "http://127.0.0.1:4173/assets/materials/A01-castle-ashlar-normal.webp",
+      "method": "GET"
+    },
+    {
+      "url": "http://127.0.0.1:4173/assets/materials/A01-castle-ashlar-roughness.webp",
+      "method": "GET"
+    },
+    {
+      "url": "http://127.0.0.1:4173/assets/materials/A02-sandstone-voussoir-albedo.webp",
+      "method": "GET"
+    },
+    {
+      "url": "http://127.0.0.1:4173/assets/materials/A02-sandstone-voussoir-normal.webp",
+      "method": "GET"
+    },
+    {
+      "url": "http://127.0.0.1:4173/assets/materials/A02-sandstone-voussoir-roughness.webp",
+      "method": "GET"
+    },
+    {
+      "url": "http://127.0.0.1:4173/assets/materials/A03-basalt-foundation-albedo.webp",
+      "method": "GET"
+    },
+    {
+      "url": "http://127.0.0.1:4173/assets/materials/A03-basalt-foundation-normal.webp",
+      "method": "GET"
+    },
+    {
+      "url": "http://127.0.0.1:4173/assets/materials/A03-basalt-foundation-roughness.webp",
+      "method": "GET"
+    },
+    {
+      "url": "http://127.0.0.1:4173/assets/materials/A04-slate-roof-albedo.webp",
+      "method": "GET"
+    },
+    {
+      "url": "http://127.0.0.1:4173/assets/materials/A04-slate-roof-normal.webp",
+      "method": "GET"
+    },
+    {
+      "url": "http://127.0.0.1:4173/assets/materials/A04-slate-roof-roughness.webp",
+      "method": "GET"
+    },
+    {
+      "url": "http://127.0.0.1:4173/assets/materials/A05-stratified-cliff-albedo.webp",
+      "method": "GET"
+    },
+    {
+      "url": "http://127.0.0.1:4173/assets/materials/A05-stratified-cliff-normal.webp",
+      "method": "GET"
+    },
+    {
+      "url": "http://127.0.0.1:4173/assets/materials/A05-stratified-cliff-roughness.webp",
+      "method": "GET"
+    },
+    {
+      "url": "http://127.0.0.1:4173/assets/materials/A06-flagstone-path-albedo.webp",
+      "method": "GET"
+    },
+    {
+      "url": "http://127.0.0.1:4173/assets/materials/A06-flagstone-path-normal.webp",
+      "method": "GET"
+    },
+    {
+      "url": "http://127.0.0.1:4173/assets/materials/A06-flagstone-path-roughness.webp",
+      "method": "GET"
+    },
+    {
+      "url": "http://127.0.0.1:4173/assets/materials/A07-carved-oak-albedo.webp",
+      "method": "GET"
+    },
+    {
+      "url": "http://127.0.0.1:4173/assets/materials/A07-carved-oak-normal.webp",
+      "method": "GET"
+    },
+    {
+      "url": "http://127.0.0.1:4173/assets/materials/A07-carved-oak-roughness.webp",
+      "method": "GET"
+    },
+    {
+      "url": "http://127.0.0.1:4173/assets/materials/A08-aged-bronze-albedo.webp",
+      "method": "GET"
+    },
+    {
+      "url": "http://127.0.0.1:4173/assets/materials/A08-aged-bronze-normal.webp",
+      "method": "GET"
+    },
+    {
+      "url": "http://127.0.0.1:4173/assets/materials/A08-aged-bronze-roughness.webp",
+      "method": "GET"
+    },
+    {
+      "url": "http://127.0.0.1:4173/assets/poster/poster.jpg",
+      "method": "GET"
+    },
+    {
+      "url": "http://127.0.0.1:4173/?debug=1&intro=0",
+      "method": "GET"
+    },
+    {
+      "url": "http://127.0.0.1:4173/assets/fonts/noto-sans-sc-400.woff2",
+      "method": "GET"
+    },
+    {
+      "url": "http://127.0.0.1:4173/assets/fonts/noto-sans-sc-500.woff2",
+      "method": "GET"
+    },
+    {
+      "url": "http://127.0.0.1:4173/assets/fonts/fonts.css",
+      "method": "GET"
+    },
+    {
+      "url": "http://127.0.0.1:4173/assets/index-B6pUoVP7.js",
+      "method": "GET"
+    },
+    {
+      "url": "http://127.0.0.1:4173/assets/index-CMY6Tj7T.css",
+      "method": "GET"
+    },
+    {
+      "url": "http://127.0.0.1:4173/assets/poster/poster.jpg",
+      "method": "GET"
+    },
+    {
+      "url": "http://127.0.0.1:4173/assets/fonts/inter-400.woff2",
+      "method": "GET"
+    },
+    {
+      "url": "http://127.0.0.1:4173/assets/fonts/noto-serif-sc-600.woff2",
+      "method": "GET"
+    },
+    {
+      "url": "http://127.0.0.1:4173/assets/materials/A01-castle-ashlar-albedo.webp",
+      "method": "GET"
+    },
+    {
+      "url": "http://127.0.0.1:4173/assets/materials/A01-castle-ashlar-normal.webp",
+      "method": "GET"
+    },
+    {
+      "url": "http://127.0.0.1:4173/assets/materials/A01-castle-ashlar-roughness.webp",
+      "method": "GET"
+    },
+    {
+      "url": "http://127.0.0.1:4173/assets/materials/A02-sandstone-voussoir-albedo.webp",
+      "method": "GET"
+    },
+    {
+      "url": "http://127.0.0.1:4173/assets/materials/A02-sandstone-voussoir-normal.webp",
+      "method": "GET"
+    },
+    {
+      "url": "http://127.0.0.1:4173/assets/materials/A02-sandstone-voussoir-roughness.webp",
+      "method": "GET"
+    },
+    {
+      "url": "http://127.0.0.1:4173/assets/materials/A03-basalt-foundation-albedo.webp",
+      "method": "GET"
+    },
+    {
+      "url": "http://127.0.0.1:4173/assets/materials/A03-basalt-foundation-normal.webp",
+      "method": "GET"
+    },
+    {
+      "url": "http://127.0.0.1:4173/assets/materials/A03-basalt-foundation-roughness.webp",
+      "method": "GET"
+    },
+    {
+      "url": "http://127.0.0.1:4173/assets/materials/A04-slate-roof-albedo.webp",
+      "method": "GET"
+    },
+    {
+      "url": "http://127.0.0.1:4173/assets/materials/A04-slate-roof-normal.webp",
+      "method": "GET"
+    },
+    {
+      "url": "http://127.0.0.1:4173/assets/materials/A04-slate-roof-roughness.webp",
+      "method": "GET"
+    },
+    {
+      "url": "http://127.0.0.1:4173/assets/materials/A05-stratified-cliff-albedo.webp",
+      "method": "GET"
+    },
+    {
+      "url": "http://127.0.0.1:4173/assets/materials/A05-stratified-cliff-normal.webp",
+      "method": "GET"
+    },
+    {
+      "url": "http://127.0.0.1:4173/assets/materials/A05-stratified-cliff-roughness.webp",
+      "method": "GET"
+    },
+    {
+      "url": "http://127.0.0.1:4173/assets/materials/A06-flagstone-path-albedo.webp",
+      "method": "GET"
+    },
+    {
+      "url": "http://127.0.0.1:4173/assets/materials/A06-flagstone-path-normal.webp",
+      "method": "GET"
+    },
+    {
+      "url": "http://127.0.0.1:4173/assets/materials/A06-flagstone-path-roughness.webp",
+      "method": "GET"
+    },
+    {
+      "url": "http://127.0.0.1:4173/assets/materials/A07-carved-oak-albedo.webp",
+      "method": "GET"
+    },
+    {
+      "url": "http://127.0.0.1:4173/assets/materials/A07-carved-oak-normal.webp",
+      "method": "GET"
+    },
+    {
+      "url": "http://127.0.0.1:4173/assets/materials/A07-carved-oak-roughness.webp",
+      "method": "GET"
+    },
+    {
+      "url": "http://127.0.0.1:4173/assets/materials/A08-aged-bronze-albedo.webp",
+      "method": "GET"
+    },
+    {
+      "url": "http://127.0.0.1:4173/assets/materials/A08-aged-bronze-normal.webp",
+      "method": "GET"
+    },
+    {
+      "url": "http://127.0.0.1:4173/assets/materials/A08-aged-bronze-roughness.webp",
+      "method": "GET"
+    },
+    {
+      "url": "http://127.0.0.1:4173/assets/poster/poster.jpg",
+      "method": "GET"
+    },
+    {
+      "url": "http://127.0.0.1:4173/?debug=1&view=orbit&time=midnight&foo=1",
+      "method": "GET"
+    },
+    {
+      "url": "http://127.0.0.1:4173/assets/fonts/noto-sans-sc-400.woff2",
+      "method": "GET"
+    },
+    {
+      "url": "http://127.0.0.1:4173/assets/fonts/noto-sans-sc-500.woff2",
+      "method": "GET"
+    },
+    {
+      "url": "http://127.0.0.1:4173/assets/fonts/fonts.css",
+      "method": "GET"
+    },
+    {
+      "url": "http://127.0.0.1:4173/assets/index-B6pUoVP7.js",
+      "method": "GET"
+    },
+    {
+      "url": "http://127.0.0.1:4173/assets/index-CMY6Tj7T.css",
+      "method": "GET"
+    },
+    {
+      "url": "http://127.0.0.1:4173/assets/poster/poster.jpg",
+      "method": "GET"
+    },
+    {
+      "url": "http://127.0.0.1:4173/assets/fonts/inter-400.woff2",
+      "method": "GET"
+    },
+    {
+      "url": "http://127.0.0.1:4173/assets/fonts/noto-serif-sc-600.woff2",
+      "method": "GET"
+    },
+    {
+      "url": "http://127.0.0.1:4173/assets/materials/A01-castle-ashlar-albedo.webp",
+      "method": "GET"
+    },
+    {
+      "url": "http://127.0.0.1:4173/assets/materials/A01-castle-ashlar-normal.webp",
+      "method": "GET"
+    },
+    {
+      "url": "http://127.0.0.1:4173/assets/materials/A01-castle-ashlar-roughness.webp",
+      "method": "GET"
+    },
+    {
+      "url": "http://127.0.0.1:4173/assets/materials/A02-sandstone-voussoir-albedo.webp",
+      "method": "GET"
+    },
+    {
+      "url": "http://127.0.0.1:4173/assets/materials/A02-sandstone-voussoir-normal.webp",
+      "method": "GET"
+    },
+    {
+      "url": "http://127.0.0.1:4173/assets/materials/A02-sandstone-voussoir-roughness.webp",
+      "method": "GET"
+    },
+    {
+      "url": "http://127.0.0.1:4173/assets/materials/A03-basalt-foundation-albedo.webp",
+      "method": "GET"
+    },
+    {
+      "url": "http://127.0.0.1:4173/assets/materials/A03-basalt-foundation-normal.webp",
+      "method": "GET"
+    },
+    {
+      "url": "http://127.0.0.1:4173/assets/materials/A03-basalt-foundation-roughness.webp",
+      "method": "GET"
+    },
+    {
+      "url": "http://127.0.0.1:4173/assets/materials/A04-slate-roof-albedo.webp",
+      "method": "GET"
+    },
+    {
+      "url": "http://127.0.0.1:4173/assets/materials/A04-slate-roof-normal.webp",
+      "method": "GET"
+    },
+    {
+      "url": "http://127.0.0.1:4173/assets/materials/A04-slate-roof-roughness.webp",
+      "method": "GET"
+    },
+    {
+      "url": "http://127.0.0.1:4173/assets/materials/A05-stratified-cliff-albedo.webp",
+      "method": "GET"
+    },
+    {
+      "url": "http://127.0.0.1:4173/assets/materials/A05-stratified-cliff-normal.webp",
+      "method": "GET"
+    },
+    {
+      "url": "http://127.0.0.1:4173/assets/materials/A05-stratified-cliff-roughness.webp",
+      "method": "GET"
+    },
+    {
+      "url": "http://127.0.0.1:4173/assets/materials/A06-flagstone-path-albedo.webp",
+      "method": "GET"
+    },
+    {
+      "url": "http://127.0.0.1:4173/assets/materials/A06-flagstone-path-normal.webp",
+      "method": "GET"
+    },
+    {
+      "url": "http://127.0.0.1:4173/assets/materials/A06-flagstone-path-roughness.webp",
+      "method": "GET"
+    },
+    {
+      "url": "http://127.0.0.1:4173/assets/materials/A07-carved-oak-albedo.webp",
+      "method": "GET"
+    },
+    {
+      "url": "http://127.0.0.1:4173/assets/materials/A07-carved-oak-normal.webp",
+      "method": "GET"
+    },
+    {
+      "url": "http://127.0.0.1:4173/assets/materials/A07-carved-oak-roughness.webp",
+      "method": "GET"
+    },
+    {
+      "url": "http://127.0.0.1:4173/assets/materials/A08-aged-bronze-albedo.webp",
+      "method": "GET"
+    },
+    {
+      "url": "http://127.0.0.1:4173/assets/materials/A08-aged-bronze-normal.webp",
+      "method": "GET"
+    },
+    {
+      "url": "http://127.0.0.1:4173/assets/materials/A08-aged-bronze-roughness.webp",
+      "method": "GET"
+    },
+    {
+      "url": "http://127.0.0.1:4173/assets/poster/poster.jpg",
+      "method": "GET"
+    }
+  ]
+}

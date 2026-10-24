@@ -1,0 +1,225 @@
+{
+  "generatedAt": "2026-10-24T16:06:45.672Z",
+  "results": [
+    {
+      "fg": "fg0",
+      "bg": "bg0",
+      "min": 4.5,
+      "label": "主文字 / 页面底色",
+      "fgValue": "#fff8eb",
+      "bgValue": "#091624",
+      "ratio": 17.258,
+      "pass": true
+    },
+    {
+      "fg": "fg1",
+      "bg": "bg0",
+      "min": 4.5,
+      "label": "正文 / 页面底色",
+      "fgValue": "#e0eaf1",
+      "bgValue": "#091624",
+      "ratio": 14.94,
+      "pass": true
+    },
+    {
+      "fg": "fg1",
+      "bg": "bg1",
+      "min": 4.5,
+      "label": "正文 / 面板底色",
+      "fgValue": "#e0eaf1",
+      "bgValue": "#14283c",
+      "ratio": 12.305,
+      "pass": true
+    },
+    {
+      "fg": "fg1",
+      "bg": "bg3",
+      "min": 4.5,
+      "label": "正文 / 对话框底色",
+      "fgValue": "#e0eaf1",
+      "bgValue": "#102032",
+      "ratio": 13.5,
+      "pass": true
+    },
+    {
+      "fg": "fg2",
+      "bg": "bg1",
+      "min": 4.5,
+      "label": "次要文字 / 面板底色",
+      "fgValue": "#bdd0df",
+      "bgValue": "#14283c",
+      "ratio": 9.476,
+      "pass": true
+    },
+    {
+      "fg": "fg2",
+      "bg": "bg3",
+      "min": 4.5,
+      "label": "次要文字 / 对话框底色",
+      "fgValue": "#bdd0df",
+      "bgValue": "#102032",
+      "ratio": 10.396,
+      "pass": true
+    },
+    {
+      "fg": "fg-inverse",
+      "bg": "accent",
+      "min": 4.5,
+      "label": "金底按钮文字 / 金色底",
+      "fgValue": "#152436",
+      "bgValue": "#f8d799",
+      "ratio": 11.343,
+      "pass": true
+    },
+    {
+      "fg": "line",
+      "bg": "bg0",
+      "min": 3,
+      "label": "控件边框 / 页面底色",
+      "fgValue": "#9fb8c8",
+      "bgValue": "#091624",
+      "ratio": 8.824,
+      "pass": true
+    },
+    {
+      "fg": "line",
+      "bg": "bg1",
+      "min": 3,
+      "label": "控件边框 / 面板底色",
+      "fgValue": "#9fb8c8",
+      "bgValue": "#14283c",
+      "ratio": 7.268,
+      "pass": true
+    },
+    {
+      "fg": "line-strong",
+      "bg": "bg1",
+      "min": 3,
+      "label": "强边框 / 面板底色",
+      "fgValue": "#d1dce5",
+      "bgValue": "#14283c",
+      "ratio": 10.783,
+      "pass": true
+    },
+    {
+      "fg": "focus",
+      "bg": "bg1",
+      "min": 3,
+      "label": "焦点环 / 面板底色",
+      "fgValue": "#ffe29c",
+      "bgValue": "#14283c",
+      "ratio": 11.877,
+      "pass": true
+    },
+    {
+      "fg": "fg1",
+      "bg": "bg2",
+      "min": 3,
+      "label": "图标 / 悬停底色",
+      "fgValue": "#e0eaf1",
+      "bgValue": "#203850",
+      "ratio": 9.874,
+      "pass": true
+    },
+    {
+      "fg": "ok",
+      "bg": "bg3",
+      "min": 3,
+      "label": "成功语义色 / 对话框底色",
+      "fgValue": "#a3e4bf",
+      "bgValue": "#102032",
+      "ratio": 11.302,
+      "pass": true
+    },
+    {
+      "fg": "warn",
+      "bg": "bg3",
+      "min": 3,
+      "label": "警告语义色 / 对话框底色",
+      "fgValue": "#ffe1a0",
+      "bgValue": "#102032",
+      "ratio": 12.968,
+      "pass": true
+    },
+    {
+      "fg": "error",
+      "bg": "bg3",
+      "min": 3,
+      "label": "错误语义色 / 对话框底色",
+      "fgValue": "#ffc0bc",
+      "bgValue": "#102032",
+      "ratio": 10.605,
+      "pass": true
+    },
+    {
+      "fg": "info",
+      "bg": "bg3",
+      "min": 3,
+      "label": "信息语义色 / 对话框底色",
+      "fgValue": "#badcf8",
+      "bgValue": "#102032",
+      "ratio": 11.517,
+      "pass": true
+    },
+    {
+      "fg": "accent",
+      "bg": "bg0",
+      "min": 3,
+      "label": "强调色 / 页面底色",
+      "fgValue": "#f8d799",
+      "bgValue": "#091624",
+      "ratio": 13.171,
+      "pass": true
+    },
+    {
+      "fg": "light-fg",
+      "bg": "bg-light",
+      "min": 4.5,
+      "label": "浅色页正文 / 浅色底",
+      "fgValue": "#1a2a39",
+      "bgValue": "#f6f2e8",
+      "ratio": 13.098,
+      "pass": true
+    },
+    {
+      "fg": "light-secondary",
+      "bg": "bg-light",
+      "min": 4.5,
+      "label": "浅色页次文 / 浅色底",
+      "fgValue": "#365166",
+      "bgValue": "#f6f2e8",
+      "ratio": 7.437,
+      "pass": true
+    },
+    {
+      "fg": "light-accent",
+      "bg": "bg-light",
+      "min": 4.5,
+      "label": "浅色页强调 / 浅色底",
+      "fgValue": "#795100",
+      "bgValue": "#f6f2e8",
+      "ratio": 6.283,
+      "pass": true
+    },
+    {
+      "fg": "light-line",
+      "bg": "bg-light",
+      "min": 3,
+      "label": "浅色页边框 / 浅色底",
+      "fgValue": "#64798b",
+      "bgValue": "#f6f2e8",
+      "ratio": 4.04,
+      "pass": true
+    },
+    {
+      "fg": "fg2",
+      "bg": "bg2",
+      "min": 2,
+      "label": "禁用态文字 / 控件底色",
+      "fgValue": "#bdd0df",
+      "bgValue": "#203850",
+      "ratio": 7.603,
+      "pass": true
+    }
+  ]
+}

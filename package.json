@@ -1,0 +1,28 @@
+{
+  "name": "aetherkeep",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "AETHERKEEP 云际圣堡 —— 漂浮于云海之上的实时 Three.js 场景",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview --host 127.0.0.1",
+    "test": "npm run build && npm run test:node",
+    "test:node": "node --test tests/*.test.js",
+    "test:e2e": "node scripts/run-e2e.mjs",
+    "test:design": "node scripts/check-contrast.mjs",
+    "assets": "node scripts/build-assets.mjs",
+    "verify:assets": "node scripts/verify-assets.mjs",
+    "analyze": "node scripts/analyze-image.mjs"
+  },
+  "dependencies": {
+    "three": "0.186.1"
+  },
+  "devDependencies": {
+    "playwright": "1.64.1",
+    "pngjs": "7.0.0",
+    "sharp": "0.35.5",
+    "vite": "8.3.5"
+  }
+}

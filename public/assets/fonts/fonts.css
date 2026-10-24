@@ -1,0 +1,45 @@
+/* =========================================================================
+   AETHERKEEP 本地字体 —— 无任何外部字体请求（离线自托管）
+   字符集：1020 个码位（index.html + src/** 提取 ∪ ASCII ∪ 中文标点 ∪ 量词 ∩ 中文数字/时间）
+   三个家族均为 SIL Open Font License 1.1，许可证见 ./OFL.txt
+   ========================================================================= */
+
+@font-face {
+  font-family: "Noto Sans SC";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("./noto-sans-sc-400.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Noto Sans SC";
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url("./noto-sans-sc-500.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Noto Serif SC";
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url("./noto-serif-sc-600.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("./inter-400.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url("./inter-600.woff2") format("woff2");
+}

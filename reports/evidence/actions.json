@@ -1,0 +1,57 @@
+[
+  {
+    "name": "时刻切换",
+    "pass": true,
+    "detail": "dawn → night"
+  },
+  {
+    "name": "天气切换",
+    "pass": true,
+    "detail": "weather=storm"
+  },
+  {
+    "name": "画质切换",
+    "pass": true,
+    "detail": "tier=ultra"
+  },
+  {
+    "name": "镜头预设",
+    "pass": true,
+    "detail": "view=rock"
+  },
+  {
+    "name": "复位视角",
+    "pass": true,
+    "detail": "view=hero"
+  },
+  {
+    "name": "拖拽改变相机",
+    "pass": true,
+    "detail": "192.0,102.0,258.0 → 57.6,64.3,323.4"
+  },
+  {
+    "name": "帮助对话框开关",
+    "pass": true,
+    "detail": "open=true closedAfterEsc=true"
+  },
+  {
+    "name": "摄影模式进出",
+    "pass": true,
+    "detail": "on=true off=true"
+  },
+  {
+    "name": "R 键复位",
+    "pass": true,
+    "detail": "view=hero"
+  },
+  {
+    "name": "摄影保存 PNG",
+    "pass": true,
+    "detail": "aetherkeep-night-storm-2026-10-24-16-16-04.png"
+  },
+  {
+    "name": "非法深链不白屏",
+    "pass": true,
+    "detail": "phase=ready"
+  }
+]

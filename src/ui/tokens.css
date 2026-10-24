@@ -1,0 +1,201 @@
+/* =========================================================================
+   AETHERKEEP 设计令牌 —— 唯一视觉真源（规划案 §3.1）
+   组件里不允许出现裸 hex / 裸 px 字号 / 裸 z-index。
+   ========================================================================= */
+
+:root {
+  /* ---- 背景层 ---- */
+  --bg0: #091624;
+  --bg1: #14283c;
+  --bg2: #203850;
+  --bg3: #102032;
+  --bg-light: #f6f2e8;
+
+  /* ---- 文字层 ---- */
+  --fg0: #fff8eb;
+  --fg1: #e0eaf1;
+  --fg2: #bdd0df;
+  --fg-inverse: #152436;
+
+  /* ---- 线与聚焦 ---- */
+  --line: #9fb8c8;
+  --line-strong: #d1dce5;
+  --focus: #ffe29c;
+
+  /* ---- 遮罩 ---- */
+  --backdrop: #061019cc;
+
+  /* ---- 强调（香槟金） ---- */
+  --accent: #f8d799;
+  --accent-hover: #ffe5b8;
+  --accent-pressed: #e5b96a;
+  --accent-muted: #304155;
+
+  /* ---- 语义色（必须搭配文字或同线框图标，不能只靠颜色） ---- */
+  --ok: #a3e4bf;
+  --warn: #ffe1a0;
+  --error: #ffc0bc;
+  --info: #badcf8;
+
+  /* ---- 浅色独立色板（静态备用页，不可机械反转暗色） ---- */
+  --light-fg: #1a2a39;
+  --light-secondary: #365166;
+  --light-line: #64798b;
+  --light-accent: #795100;
+
+  /* ---- 字体 ---- */
+  --font-body: "Noto Sans SC", "PingFang SC", "Microsoft YaHei", sans-serif;
+  --font-latin: "Inter", "Helvetica Neue", Arial, sans-serif;
+  --font-display: "Noto Serif SC", "Songti SC", serif;
+
+  /* ---- 字阶（比率 1.25）：字号/行高/字重/字距 ---- */
+  --fs-t0: 0.75rem;
+  --lh-t0: 1rem;
+  --fw-t0: 500;
+  --ls-t0: 0.04em;
+
+  --fs-t1: 0.9375rem;
+  --lh-t1: 1.4375rem;
+  --fw-t1: 400;
+  --ls-t1: 0;
+
+  --fs-t2: 1.1875rem;
+  --lh-t2: 1.8125rem;
+  --fw-t2: 500;
+  --ls-t2: 0;
+
+  --fs-t3: 1.5rem;
+  --lh-t3: 1.875rem;
+  --fw-t3: 600;
+  --ls-t3: -0.01em;
+
+  --fs-t4: 1.875rem;
+  --lh-t4: 2.375rem;
+  --fw-t4: 600;
+  --ls-t4: -0.02em;
+
+  --fs-t5: 2.375rem;
+  --lh-t5: 2.875rem;
+  --fw-t5: 600;
+  --ls-t5: -0.025em;
+
+  --fs-t6: 3rem;
+  --lh-t6: 3.625rem;
+  --fw-t6: 600;
+  --ls-t6: -0.03em;
+
+  --fs-hero: 3.75rem;
+  --lh-hero: 4.375rem;
+  --fw-hero: 600;
+  --ls-hero: -0.035em;
+
+  /* ---- 间距（4px 基准，8px 主节拍） ---- */
+  --sp1: 4px;
+  --sp2: 8px;
+  --sp3: 12px;
+  --sp4: 16px;
+  --sp6: 24px;
+  --sp8: 32px;
+  --sp12: 48px;
+  --sp16: 64px;
+  --sp24: 96px;
+
+  /* ---- 圆角 ---- */
+  --r1: 4px;
+  --r2: 8px;
+  --r3: 12px;
+  --r4: 16px;
+  --r-pill: 999px;
+
+  /* ---- 描边 ---- */
+  --border: 1px solid var(--line);
+
+  /* ---- 阴影（5 级，各有明确用途） ---- */
+  --shadow0: none;
+  --shadow1: 0 4px 12px #07131f55;
+  --shadow2: 0 12px 28px #07131f66;
+  --shadow3: 0 20px 48px #07131f88;
+  --shadow4: 0 28px 72px #07131faa;
+
+  /* ---- 层级 ---- */
+  --z-scene: 0;
+  --z-header: 10;
+  --z-controls: 20;
+  --z-toast: 30;
+  --z-modal: 40;
+  --z-boot: 50;
+
+  /* ---- 动效 ---- */
+  --dur-feedback: 120ms;
+  --dur-switch: 240ms;
+  --dur-enter: 360ms;
+  --dur-cruise: 6000ms;
+  --ease-feedback: cubic-bezier(0.2, 0, 0, 1);
+  --ease-enter: cubic-bezier(0.16, 1, 0.3, 1);
+  --ease-cruise: cubic-bezier(0.22, 1, 0.36, 1);
+
+  /* ---- 断点与栅格 ---- */
+  --content-max: 1120px;
+  --edge: 16px;
+  --tap-min: 44px;
+
+  /* ---- 交互状态统一契约（§3.2） ---- */
+  --state-hover-bg: var(--bg2);
+  --state-press-scale: 0.97;
+  --focus-ring: 2px solid var(--focus);
+  --focus-offset: 3px;
+}
+
+/* 断点：≤480 */
+@media (max-width: 480px) {
+  :root {
+    --edge: 16px;
+    --fs-hero: 1.875rem;
+    --lh-hero: 2.375rem;
+    --ls-hero: -0.02em;
+    --fs-t5: 1.875rem;
+    --lh-t5: 2.375rem;
+    --fs-t4: 1.5rem;
+    --lh-t4: 1.875rem;
+  }
+}
+
+/* 断点：481–768 */
+@media (min-width: 481px) and (max-width: 768px) {
+  :root {
+    --edge: 20px;
+  }
+}
+
+/* 断点：769–1024 */
+@media (min-width: 769px) and (max-width: 1024px) {
+  :root {
+    --edge: 24px;
+    --fs-hero: 38px;
+    --lh-hero: 46px;
+  }
+}
+
+/* 断点：1025–1440 */
+@media (min-width: 1025px) and (max-width: 1440px) {
+  :root {
+    --edge: 32px;
+  }
+}
+
+/* 断点：>1440 */
+@media (min-width: 1441px) {
+  :root {
+    --edge: 48px;
+  }
+}
+
+/* Reduced motion：CSS 动效归零（§3.1 微交互） */
+@media (prefers-reduced-motion: reduce) {
+  :root {
+    --dur-feedback: 0ms;
+    --dur-switch: 0ms;
+    --dur-enter: 0ms;
+    --dur-cruise: 0ms;
+  }
+}

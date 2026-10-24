@@ -1,0 +1,239 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <meta name="theme-color" content="#091624" />
+    <meta name="color-scheme" content="dark" />
+    <meta
+      name="description"
+      content="AETHERKEEP 云际圣堡 —— 漂浮于云海之上的实时 Three.js 场景"
+    />
+    <title>AETHERKEEP 云际圣堡</title>
+    <link rel="preload" href="./assets/fonts/noto-sans-sc-400.woff2" as="font" type="font/woff2" crossorigin />
+    <link rel="preload" href="./assets/fonts/noto-sans-sc-500.woff2" as="font" type="font/woff2" crossorigin />
+    <link rel="stylesheet" href="./assets/fonts/fonts.css" />
+    <link rel="stylesheet" href="./src/ui/tokens.css" />
+    <link rel="stylesheet" href="./src/ui/app.css" />
+  </head>
+  <body>
+    <!-- 主舞台 -->
+    <main id="stage" class="stage">
+      <canvas
+        id="scene"
+        class="stage__canvas"
+        role="img"
+        tabindex="0"
+        aria-label="云际圣堡实时三维观景场景"
+        aria-describedby="scene-status"
+      ></canvas>
+
+      <!-- C02 品牌 -->
+      <header class="brand" id="brand">
+        <p class="brand__latin">AETHERKEEP</p>
+        <h1 class="brand__title">云际圣堡</h1>
+      </header>
+
+      <!-- C03 叙事标题 -->
+      <section class="narrative" id="narrative" aria-live="polite">
+        <p class="narrative__eyebrow">风暴退去的第七分钟</p>
+        <p class="narrative__lead">第一束晨光穿过古堡钟楼。</p>
+        <p class="narrative__hint" id="narrative-hint">拖动镜头，寻找第一束光。</p>
+      </section>
+
+      <!-- 屏幕阅读器专用状态 -->
+      <p id="scene-status" class="visually-hidden" aria-live="polite"></p>
+
+      <!-- C04 底部操作台 -->
+      <nav class="dock" id="dock" aria-label="场景控制">
+        <div class="dock__group">
+          <!-- C05 时间分段 -->
+          <div class="dock__item dock__item--segmented" role="group" aria-label="时刻">
+            <button class="seg" type="button" data-action="time" data-value="dawn" aria-pressed="true">
+              晨曦
+            </button>
+            <button class="seg" type="button" data-action="time" data-value="noon" aria-pressed="false">
+              正午
+            </button>
+            <button class="seg" type="button" data-action="time" data-value="sunset" aria-pressed="false">
+              日落
+            </button>
+            <button class="seg" type="button" data-action="time" data-value="night" aria-pressed="false">
+              星夜
+            </button>
+          </div>
+
+          <!-- C06 天气 -->
+          <div class="dock__item" role="group" aria-label="天气">
+            <button class="chip" type="button" data-action="weather" data-value="clear" aria-pressed="true">
+              晴朗
+            </button>
+            <button class="chip" type="button" data-action="weather" data-value="mist" aria-pressed="false">
+              薄雾
+            </button>
+            <button class="chip" type="button" data-action="weather" data-value="storm" aria-pressed="false">
+              风雨
+            </button>
+          </div>
+        </div>
+
+        <div class="dock__group">
+          <!-- C07 画质 -->
+          <div class="dock__item" role="group" aria-label="画质">
+            <button
+              class="iconbtn"
+              type="button"
+              data-action="tier-menu"
+              aria-haspopup="true"
+              aria-expanded="false"
+              aria-label="画质设置"
+            >
+              <span data-icon="sliders" aria-hidden="true"></span>
+            </button>
+            <div class="menu" id="tier-menu" role="group" aria-label="画质档位" hidden>
+              <button class="menu__item" type="button" data-action="tier" data-value="low" aria-pressed="false">
+                <span class="menu__label">低</span>
+                <span class="menu__note">省电流畅</span>
+              </button>
+              <button class="menu__item" type="button" data-action="tier" data-value="balanced" aria-pressed="true">
+                <span class="menu__label">均衡</span>
+                <span class="menu__note">默认</span>
+              </button>
+              <button class="menu__item" type="button" data-action="tier" data-value="ultra" aria-pressed="false">
+                <span class="menu__label">极致</span>
+                <span class="menu__note">画质优先</span>
+              </button>
+            </div>
+          </div>
+
+          <!-- C08 镜头 / 摄影 / 复位 / 音量 -->
+          <div class="dock__item" role="group" aria-label="视角与工具">
+            <button
+              class="iconbtn"
+              type="button"
+              data-action="view-menu"
+              aria-haspopup="true"
+              aria-expanded="false"
+              aria-label="切换镜头"
+            >
+              <span data-icon="camera" aria-hidden="true"></span>
+            </button>
+            <div class="menu" id="view-menu" role="group" aria-label="镜头预设" hidden>
+              <button class="menu__item" type="button" data-action="view" data-value="hero">
+                <span class="menu__label">远景</span>
+                <span class="menu__note">英雄机位</span>
+              </button>
+              <button class="menu__item" type="button" data-action="view" data-value="detail">
+                <span class="menu__label">拱廊</span>
+                <span class="menu__note">窗深与墙纹</span>
+              </button>
+              <button class="menu__item" type="button" data-action="view" data-value="rock">
+                <span class="menu__label">岩基</span>
+                <span class="menu__note">侵蚀与层理</span>
+              </button>
+              <button class="menu__item" type="button" data-action="view" data-value="side">
+                <span class="menu__label">侧景</span>
+                <span class="menu__note">岛体全貌</span>
+              </button>
+            </div>
+
+            <button class="iconbtn" type="button" data-action="photo" aria-label="进入摄影模式">
+              <span data-icon="aperture" aria-hidden="true"></span>
+            </button>
+            <button class="iconbtn" type="button" data-action="reset" aria-label="复位视角">
+              <span data-icon="reset" aria-hidden="true"></span>
+            </button>
+            <button class="iconbtn" type="button" data-action="mute" aria-pressed="true" aria-label="开启环境声">
+              <span data-icon="mute" aria-hidden="true"></span>
+            </button>
+          </div>
+        </div>
+      </nav>
+
+      <!-- C09 Toast -->
+      <div class="toasts" id="toasts" aria-live="polite" role="status"></div>
+
+      <!-- C10 帮助 -->
+      <button class="iconbtn iconbtn--help" type="button" data-action="help" aria-label="打开帮助">
+        <span data-icon="help" aria-hidden="true"></span>
+      </button>
+
+      <!-- 静态备用海报（无 WebGL2 时显示） -->
+      <section class="fallback" id="fallback" hidden>
+        <img
+          class="fallback__poster"
+          id="fallback-poster"
+          src="./assets/poster/poster.jpg"
+          alt="云海中的城堡概念预览"
+          width="1024"
+          height="576"
+        />
+        <div class="fallback__panel">
+          <h2 class="fallback__title">云际圣堡 · 静态介绍</h2>
+          <p class="fallback__body" id="fallback-body"></p>
+          <div class="fallback__actions">
+            <button class="btn btn--primary" type="button" data-action="reload">重新加载</button>
+          </div>
+        </div>
+      </section>
+
+      <!-- C01 启动屏 -->
+      <div class="boot" id="boot" role="dialog" aria-modal="true" aria-labelledby="boot-title">
+        <div class="boot__inner">
+          <p class="boot__eyebrow">AETHERKEEP</p>
+          <h2 class="boot__title" id="boot-title">云际圣堡</h2>
+          <img
+            class="boot__poster"
+            src="./assets/poster/poster.jpg"
+            alt=""
+            width="1024"
+            height="576"
+          />
+          <div
+            class="boot__bar"
+            id="boot-bar"
+            role="progressbar"
+            aria-valuemin="0"
+            aria-valuemax="100"
+            aria-valuenow="0"
+            aria-label="场景加载进度"
+          >
+            <span class="boot__fill" id="boot-fill"></span>
+          </div>
+          <p class="boot__stage" id="boot-stage">正在汇聚云海 · 0%</p>
+          <button class="btn btn--ghost" type="button" data-action="cancel-load" id="boot-cancel" hidden>
+            取消加载
+          </button>
+        </div>
+      </div>
+    </main>
+
+    <dialog class="dialog" id="help-dialog" aria-labelledby="help-title">
+      <div class="dialog__head">
+        <h2 class="dialog__title" id="help-title">操作说明</h2>
+        <button class="iconbtn" type="button" data-action="close-help" aria-label="关闭帮助">
+          <span data-icon="close" aria-hidden="true"></span>
+        </button>
+      </div>
+      <div class="dialog__body">
+        <p class="dialog__lead">用鼠标拖动查看城堡。键盘同样可以完成全部主要操作。</p>
+        <table class="keys">
+          <caption class="keys__caption">键盘快捷键</caption>
+          <tbody>
+            <tr><th scope="row"><kbd>R</kbd></th><td>复位视角</td></tr>
+            <tr><th scope="row"><kbd>H</kbd></th><td>进入 / 退出摄影模式</td></tr>
+            <tr><th scope="row"><kbd>S</kbd></th><td>摄影模式下保存 PNG</td></tr>
+            <tr><th scope="row"><kbd>M</kbd></th><td>静音 / 开启环境声</td></tr>
+            <tr><th scope="row"><kbd>Esc</kbd></th><td>关闭浮层或退出摄影</td></tr>
+            <tr><th scope="row"><kbd>Tab</kbd></th><td>在全部控件间移动焦点</td></tr>
+          </tbody>
+        </table>
+        <p class="dialog__note">
+          摄影模式下会隐藏全部界面元素，场景仍以实时渲染方式继续运行。
+        </p>
+      </div>
+    </dialog>
+
+    <script type="module" src="./src/main.js"></script>
+  </body>
+</html>

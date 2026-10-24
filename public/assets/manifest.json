@@ -1,0 +1,785 @@
+{
+  "generatedOn": "2026-10-24",
+  "generator": "scripts/build-assets.mjs",
+  "base": "public/assets",
+  "entries": [
+    {
+      "file": "materials/A01-castle-ashlar-albedo.webp",
+      "bytes": 1218004,
+      "width": 2048,
+      "height": 2048,
+      "format": "webp",
+      "sha256": "5940e1d37070371b1d99e6f3ec91e50eef7a381a79ca1e3e84fbe8acbda4e479",
+      "id": "A01-castle-ashlar",
+      "kind": "albedo"
+    },
+    {
+      "file": "materials/A01-castle-ashlar-normal.webp",
+      "bytes": 545192,
+      "width": 1024,
+      "height": 1024,
+      "format": "webp",
+      "sha256": "f87ee58b3612e026ac13f2d15c3650f932f8abee55855d44ea77505a708d7a1c",
+      "id": "A01-castle-ashlar",
+      "kind": "normal"
+    },
+    {
+      "file": "materials/A01-castle-ashlar-roughness.webp",
+      "bytes": 97240,
+      "width": 1024,
+      "height": 1024,
+      "format": "webp",
+      "sha256": "160d88dfe13f4d2c5f6db65ae4d5d29ad5732dfb1e176c665b8a957392baa653",
+      "id": "A01-castle-ashlar",
+      "kind": "roughness"
+    },
+    {
+      "file": "materials/A02-sandstone-voussoir-albedo.webp",
+      "bytes": 815734,
+      "width": 1536,
+      "height": 1536,
+      "format": "webp",
+      "sha256": "4d2041079de252d7196497c7de46086b089900e873cd251e9b17d566e7de787b",
+      "id": "A02-sandstone-voussoir",
+      "kind": "albedo"
+    },
+    {
+      "file": "materials/A02-sandstone-voussoir-normal.webp",
+      "bytes": 789800,
+      "width": 1024,
+      "height": 1024,
+      "format": "webp",
+      "sha256": "528a70bad4ead3b99a6ba9691e067f71c44e34ca068e68a11b92f7c82820eaec",
+      "id": "A02-sandstone-voussoir",
+      "kind": "normal"
+    },
+    {
+      "file": "materials/A02-sandstone-voussoir-roughness.webp",
+      "bytes": 103902,
+      "width": 1024,
+      "height": 1024,
+      "format": "webp",
+      "sha256": "3a078f5a2cf031a2276ad1b3b72aaed2654144aaa0181aeedfe2fee183d4fab7",
+      "id": "A02-sandstone-voussoir",
+      "kind": "roughness"
+    },
+    {
+      "file": "materials/A03-basalt-foundation-albedo.webp",
+      "bytes": 1149888,
+      "width": 2048,
+      "height": 2048,
+      "format": "webp",
+      "sha256": "4d16196518128482ff8263f9993499d925497a7494c021036751d10850da4081",
+      "id": "A03-basalt-foundation",
+      "kind": "albedo"
+    },
+    {
+      "file": "materials/A03-basalt-foundation-normal.webp",
+      "bytes": 331780,
+      "width": 1024,
+      "height": 1024,
+      "format": "webp",
+      "sha256": "3c4a98103b0a9566396b7148c2257eb0081df4a53c0c3cba9820480a923169ac",
+      "id": "A03-basalt-foundation",
+      "kind": "normal"
+    },
+    {
+      "file": "materials/A03-basalt-foundation-roughness.webp",
+      "bytes": 83168,
+      "width": 1024,
+      "height": 1024,
+      "format": "webp",
+      "sha256": "c1cdd5458f093671562b55a58af213d8ec8fcad790d3c8972d37fe8661fcbaac",
+      "id": "A03-basalt-foundation",
+      "kind": "roughness"
+    },
+    {
+      "file": "materials/A04-slate-roof-albedo.webp",
+      "bytes": 1045908,
+      "width": 2048,
+      "height": 2048,
+      "format": "webp",
+      "sha256": "42a435884b89f27e4066c8da146d6c3173d614aa0195200782695c2499c8f4a1",
+      "id": "A04-slate-roof",
+      "kind": "albedo"
+    },
+    {
+      "file": "materials/A04-slate-roof-normal.webp",
+      "bytes": 421436,
+      "width": 1024,
+      "height": 1024,
+      "format": "webp",
+      "sha256": "ecead890de0c3b80612278517b9990142e1a45718641fa025996dc5d65c4e4d8",
+      "id": "A04-slate-roof",
+      "kind": "normal"
+    },
+    {
+      "file": "materials/A04-slate-roof-roughness.webp",
+      "bytes": 279840,
+      "width": 2048,
+      "height": 2048,
+      "format": "webp",
+      "sha256": "81ade0fd7cae8075137644d531df6c52227c733a5dbca4060707bb4321384a98",
+      "id": "A04-slate-roof",
+      "kind": "roughness"
+    },
+    {
+      "file": "materials/A05-stratified-cliff-albedo.webp",
+      "bytes": 1171400,
+      "width": 2048,
+      "height": 2048,
+      "format": "webp",
+      "sha256": "be8178183699959c04d261f7777f20062e5cb49903cfd41faedd555dae3c5fc5",
+      "id": "A05-stratified-cliff",
+      "kind": "albedo"
+    },
+    {
+      "file": "materials/A05-stratified-cliff-normal.webp",
+      "bytes": 586430,
+      "width": 1024,
+      "height": 1024,
+      "format": "webp",
+      "sha256": "e907f9e3ecff4f55c6b0b1cd4582d8e9f5edfca3895a646f84898292f732fce9",
+      "id": "A05-stratified-cliff",
+      "kind": "normal"
+    },
+    {
+      "file": "materials/A05-stratified-cliff-roughness.webp",
+      "bytes": 97866,
+      "width": 1024,
+      "height": 1024,
+      "format": "webp",
+      "sha256": "c35b9b22cb05669a655ca6d9d44af58f80e0fc1c523efc98c94ff230d99d5670",
+      "id": "A05-stratified-cliff",
+      "kind": "roughness"
+    },
+    {
+      "file": "materials/A06-flagstone-path-albedo.webp",
+      "bytes": 912278,
+      "width": 1536,
+      "height": 1536,
+      "format": "webp",
+      "sha256": "22d0d0d6ab374fc16e37b499ec2fd366b4491845ebf4e76bdc8541027dfd1c4d",
+      "id": "A06-flagstone-path",
+      "kind": "albedo"
+    },
+    {
+      "file": "materials/A06-flagstone-path-normal.webp",
+      "bytes": 794772,
+      "width": 1024,
+      "height": 1024,
+      "format": "webp",
+      "sha256": "86c44cc2d349b48d59f764178d56cf032a2ab665e98ae0975862a9248db40d1c",
+      "id": "A06-flagstone-path",
+      "kind": "normal"
+    },
+    {
+      "file": "materials/A06-flagstone-path-roughness.webp",
+      "bytes": 146564,
+      "width": 1024,
+      "height": 1024,
+      "format": "webp",
+      "sha256": "3b96d4be24cbc67cd3eee38516eabf5b68b5156c9422ead401e00c070a15cfb8",
+      "id": "A06-flagstone-path",
+      "kind": "roughness"
+    },
+    {
+      "file": "materials/A07-carved-oak-albedo.webp",
+      "bytes": 1169376,
+      "width": 2048,
+      "height": 2048,
+      "format": "webp",
+      "sha256": "fff12448d84754ef6c8fe6320f3b1f2d72d19eee6b2c468df20f29346cbe32fc",
+      "id": "A07-carved-oak",
+      "kind": "albedo"
+    },
+    {
+      "file": "materials/A07-carved-oak-normal.webp",
+      "bytes": 646304,
+      "width": 1024,
+      "height": 1024,
+      "format": "webp",
+      "sha256": "17b6830de20ac6bf25cc4dda96ef801fbe851f2216da9ed3a496f64199c9b71b",
+      "id": "A07-carved-oak",
+      "kind": "normal"
+    },
+    {
+      "file": "materials/A07-carved-oak-roughness.webp",
+      "bytes": 80744,
+      "width": 1024,
+      "height": 1024,
+      "format": "webp",
+      "sha256": "3961e18ee50789ba00cbeaefb5b193d0441ab313861efd1f80769d700bbb0d27",
+      "id": "A07-carved-oak",
+      "kind": "roughness"
+    },
+    {
+      "file": "materials/A08-aged-bronze-albedo.webp",
+      "bytes": 641324,
+      "width": 2048,
+      "height": 2048,
+      "format": "webp",
+      "sha256": "3d62e52c6550bddb8af4469203cee95965daab497f8e738bee395ccbe067ec09",
+      "id": "A08-aged-bronze",
+      "kind": "albedo"
+    },
+    {
+      "file": "materials/A08-aged-bronze-normal.webp",
+      "bytes": 771484,
+      "width": 1024,
+      "height": 1024,
+      "format": "webp",
+      "sha256": "0cae217c7a15dbfe7a8fa35cc5b5efcc6c5b0799853b2fe4730993d6dfa406b9",
+      "id": "A08-aged-bronze",
+      "kind": "normal"
+    },
+    {
+      "file": "materials/A08-aged-bronze-roughness.webp",
+      "bytes": 231680,
+      "width": 2048,
+      "height": 2048,
+      "format": "webp",
+      "sha256": "15d8313856bae81208a252e16bdc0aefd3c7405a6e00e0163d09ae4096385a4d",
+      "id": "A08-aged-bronze",
+      "kind": "roughness"
+    },
+    {
+      "file": "poster/poster.jpg",
+      "bytes": 56191,
+      "width": 1024,
+      "height": 576,
+      "format": "jpeg",
+      "sha256": "c30d8d92efe61ab875258b5060e7a8411582cec91b426fe4dbc7fa0ff25875fa",
+      "id": "poster",
+      "kind": "poster",
+      "note": "index.html 与静态备用页引用此文件"
+    },
+    {
+      "file": "poster/poster.webp",
+      "bytes": 35318,
+      "width": 1024,
+      "height": 576,
+      "format": "webp",
+      "sha256": "679b8db6f57a1e11c68990d5243c9c362aa0017cc0454f98bd736c6a2aeee623",
+      "id": "poster",
+      "kind": "poster-alt"
+    },
+    {
+      "file": "fonts/noto-sans-sc-400.woff2",
+      "bytes": 154956,
+      "sha256": "8c4174977e769342cf9ef7ad6a4f9cda59692fe6fd78aacfe0b7a999b7e47d21",
+      "family": "Noto Sans SC",
+      "weight": 400,
+      "style": "normal",
+      "license": "fonts/OFL.txt",
+      "kind": "font"
+    },
+    {
+      "file": "fonts/noto-sans-sc-500.woff2",
+      "bytes": 156828,
+      "sha256": "ee181af142b1cf60a2eea4292e95fc9f61b9aae1d063fdfdc1c7915602391cc7",
+      "family": "Noto Sans SC",
+      "weight": 500,
+      "style": "normal",
+      "license": "fonts/OFL.txt",
+      "kind": "font"
+    },
+    {
+      "file": "fonts/noto-serif-sc-600.woff2",
+      "bytes": 204216,
+      "sha256": "a2f98ca5ba3fd5ff364e4978489af6d6896d565fec80c262981d97d6030723b7",
+      "family": "Noto Serif SC",
+      "weight": 600,
+      "style": "normal",
+      "license": "fonts/OFL.txt",
+      "kind": "font"
+    },
+    {
+      "file": "fonts/inter-400.woff2",
+      "bytes": 22584,
+      "sha256": "71a076398df18d1f9fe310e49324083267e6f66541e185f17224cdb9de157683",
+      "family": "Inter",
+      "weight": 400,
+      "style": "normal",
+      "license": "fonts/OFL.txt",
+      "kind": "font"
+    },
+    {
+      "file": "fonts/inter-600.woff2",
+      "bytes": 23340,
+      "sha256": "638074740cbcdab7689a68bc1fae52d0d5c040e0b0e7c48fc05b9ca965bf2da2",
+      "family": "Inter",
+      "weight": 600,
+      "style": "normal",
+      "license": "fonts/OFL.txt",
+      "kind": "font"
+    },
+    {
+      "file": "fonts/OFL.txt",
+      "bytes": 9841,
+      "sha256": "14a4cf943b649418cf02dc9d0e51c1ebf167a0b0e51afe9c01fd6bf8f5584a42",
+      "kind": "license",
+      "covers": [
+        "Noto Sans SC",
+        "Noto Serif SC",
+        "Inter"
+      ],
+      "license": "SIL Open Font License 1.1"
+    },
+    {
+      "file": "fonts/OFL-Noto.txt",
+      "bytes": 4388,
+      "sha256": "1c05c68c34f9708415aada51f17e1b0092d2cea709bf4a94cd38114f9e73d7d9",
+      "kind": "license",
+      "covers": [
+        "Noto Sans SC",
+        "Noto Serif SC"
+      ],
+      "license": "SIL Open Font License 1.1"
+    },
+    {
+      "file": "fonts/OFL-Inter.txt",
+      "bytes": 4377,
+      "sha256": "5b9321a4298cfeb6b34354164a1c3afc3db114569984c502b9b35d988fd58c57",
+      "kind": "license",
+      "covers": [
+        "Inter"
+      ],
+      "license": "SIL Open Font License 1.1"
+    }
+  ],
+  "materials": [
+    {
+      "id": "A01-castle-ashlar",
+      "material": "城堡外墙石灰岩砌块 (cool pale limestone ashlar)",
+      "roughnessRange": [
+        0.66,
+        0.9
+      ],
+      "source": {
+        "rawFile": "A01-castle-ashlar.jpg",
+        "rawFormat": "jpeg",
+        "rawDimensions": "2048x2048",
+        "rawBytes": 4550132,
+        "rawSha256": "0eb30ee3831c845d0633b35009409ef0a77b379fd2ddeb1236f6c14e67965cc8",
+        "nodeId": "455893884334435",
+        "generatedOn": "2026-10-24",
+        "prompt": "cool pale limestone ashlar blocks, irregular 20-40 cm mortar seams, age stains and sparse lichen, seamless tileable texture, flat even lighting, no shadows, no objects, orthographic top-down, photorealistic PBR albedo map, evenly exposed, no specular reflections baked in, no perspective, no text, no watermark"
+      },
+      "processing": {
+        "seamBandPx": 96,
+        "sourceResolution": "2048x2048",
+        "albedoQuality": 80,
+        "albedoResolution": "2048x2048",
+        "normalResolution": "1024x1024",
+        "normalStrength": 0.55,
+        "normalConvention": "OpenGL / +Y-up tangent space (three.js default flipY=true)",
+        "roughnessResolution": "1024x1024",
+        "roughnessSeed": 1592596999
+      },
+      "seam": {
+        "leftRightRgbDelta": 0.012327,
+        "topBottomRgbDelta": 0.012513,
+        "measuredOn": "encoded albedo file (decoded)"
+      },
+      "files": {
+        "albedo": "materials/A01-castle-ashlar-albedo.webp",
+        "normal": "materials/A01-castle-ashlar-normal.webp",
+        "roughness": "materials/A01-castle-ashlar-roughness.webp"
+      }
+    },
+    {
+      "id": "A02-sandstone-voussoir",
+      "material": "拱券砂岩楔石 (warm taupe weathered sandstone voussoir)",
+      "roughnessRange": [
+        0.66,
+        0.9
+      ],
+      "source": {
+        "rawFile": "A02-sandstone-voussoir.jpg",
+        "rawFormat": "jpeg",
+        "rawDimensions": "2048x2048",
+        "rawBytes": 5164448,
+        "rawSha256": "d005fdf1a939154c0ffbb3c4eecfb5941b5c050e8fce4375ff227b3a8f9d31f0",
+        "nodeId": "455894147842514",
+        "generatedOn": "2026-10-24",
+        "prompt": "warm taupe weathered sandstone voussoir blocks, fine iron mineral bands, seamless tileable texture, flat even lighting, no shadows, no objects, orthographic top-down, photorealistic PBR albedo map, evenly exposed, no specular reflections baked in, no perspective, no text, no watermark"
+      },
+      "processing": {
+        "seamBandPx": 96,
+        "sourceResolution": "2048x2048",
+        "albedoQuality": 82,
+        "albedoResolution": "1536x1536",
+        "normalResolution": "1024x1024",
+        "normalStrength": 0.55,
+        "normalConvention": "OpenGL / +Y-up tangent space (three.js default flipY=true)",
+        "roughnessResolution": "1024x1024",
+        "roughnessSeed": 1592604918
+      },
+      "seam": {
+        "leftRightRgbDelta": 0.012662,
+        "topBottomRgbDelta": 0.012361,
+        "measuredOn": "encoded albedo file (decoded)"
+      },
+      "files": {
+        "albedo": "materials/A02-sandstone-voussoir-albedo.webp",
+        "normal": "materials/A02-sandstone-voussoir-normal.webp",
+        "roughness": "materials/A02-sandstone-voussoir-roughness.webp"
+      }
+    },
+    {
+      "id": "A03-basalt-foundation",
+      "material": "基座玄武岩砌体 (dark blue basalt foundation masonry)",
+      "roughnessRange": [
+        0.66,
+        0.9
+      ],
+      "source": {
+        "rawFile": "A03-basalt-foundation.jpg",
+        "rawFormat": "jpeg",
+        "rawDimensions": "2048x2048",
+        "rawBytes": 4306342,
+        "rawSha256": "5f55a1878a70de316c4d0a0e6d92d0c3b0db44a5483c55a9b361ee3b32fd19bf",
+        "nodeId": "455893800169708",
+        "generatedOn": "2026-10-24",
+        "prompt": "dark blue basalt foundation masonry, subtle chalk mortar, seamless tileable texture, flat even lighting, no shadows, no objects, orthographic top-down, photorealistic PBR albedo map, evenly exposed, no specular reflections baked in, no perspective, no text, no watermark"
+      },
+      "processing": {
+        "seamBandPx": 96,
+        "sourceResolution": "2048x2048",
+        "albedoQuality": 82,
+        "albedoResolution": "2048x2048",
+        "normalResolution": "1024x1024",
+        "normalStrength": 0.55,
+        "normalConvention": "OpenGL / +Y-up tangent space (three.js default flipY=true)",
+        "roughnessResolution": "1024x1024",
+        "roughnessSeed": 1592612837
+      },
+      "seam": {
+        "leftRightRgbDelta": 0.011769,
+        "topBottomRgbDelta": 0.014504,
+        "measuredOn": "encoded albedo file (decoded)"
+      },
+      "files": {
+        "albedo": "materials/A03-basalt-foundation-albedo.webp",
+        "normal": "materials/A03-basalt-foundation-normal.webp",
+        "roughness": "materials/A03-basalt-foundation-roughness.webp"
+      }
+    },
+    {
+      "id": "A04-slate-roof",
+      "material": "屋顶蓝灰板岩瓦 (overlapping blue charcoal slate roof tiles)",
+      "roughnessRange": [
+        0.56,
+        0.75
+      ],
+      "source": {
+        "rawFile": "A04-slate-roof.jpg",
+        "rawFormat": "jpeg",
+        "rawDimensions": "2048x2048",
+        "rawBytes": 4093163,
+        "rawSha256": "96e9d1f7922d41abd6d92688becd62e4dc771caa6edf48921b3795bc9c34ecbd",
+        "nodeId": "455893800169704",
+        "generatedOn": "2026-10-24",
+        "prompt": "overlapping blue charcoal slate roof tiles, chipped edges and varied hue, seamless tileable texture, flat even lighting, no shadows, no objects, orthographic top-down, photorealistic PBR albedo map, evenly exposed, no specular reflections baked in, no perspective, no text, no watermark"
+      },
+      "processing": {
+        "seamBandPx": 96,
+        "sourceResolution": "2048x2048",
+        "albedoQuality": 82,
+        "albedoResolution": "2048x2048",
+        "normalResolution": "1024x1024",
+        "normalStrength": 0.55,
+        "normalConvention": "OpenGL / +Y-up tangent space (three.js default flipY=true)",
+        "roughnessResolution": "2048x2048",
+        "roughnessSeed": 1592620756
+      },
+      "seam": {
+        "leftRightRgbDelta": 0.011522,
+        "topBottomRgbDelta": 0.012963,
+        "measuredOn": "encoded albedo file (decoded)"
+      },
+      "files": {
+        "albedo": "materials/A04-slate-roof-albedo.webp",
+        "normal": "materials/A04-slate-roof-normal.webp",
+        "roughness": "materials/A04-slate-roof-roughness.webp"
+      }
+    },
+    {
+      "id": "A05-stratified-cliff",
+      "material": "浮岛崖壁层状沉积岩 · 冷灰 (wind eroded stratified sedimentary cliff, pale cool grey-beige)",
+      "roughnessRange": [
+        0.66,
+        0.9
+      ],
+      "source": {
+        "rawFile": "A05-stratified-cliff.jpg",
+        "rawFormat": "jpeg",
+        "rawDimensions": "2048x2048",
+        "rawBytes": 4434877,
+        "rawSha256": "5977b7acfa42b08d78292a9c337200a9dcdf228e1c2fe9738568c4f464a2fa60",
+        "nodeId": "455902498427008",
+        "generatedOn": "2026-10-24",
+        "prompt": "wind eroded stratified sedimentary cliff face in pale cool grey-beige limestone, horizontal layers and fissures, desaturated muted tones, no orange or red rust tones, seamless tileable texture, flat even lighting, no shadows, no objects, orthographic top-down, photorealistic PBR albedo map, evenly exposed, no specular reflections baked in, no perspective, no text, no watermark"
+      },
+      "processing": {
+        "seamBandPx": 96,
+        "sourceResolution": "2048x2048",
+        "albedoQuality": 80,
+        "albedoResolution": "2048x2048",
+        "normalResolution": "1024x1024",
+        "normalStrength": 0.55,
+        "normalConvention": "OpenGL / +Y-up tangent space (three.js default flipY=true)",
+        "roughnessResolution": "1024x1024",
+        "roughnessSeed": 1592628675
+      },
+      "seam": {
+        "leftRightRgbDelta": 0.013738,
+        "topBottomRgbDelta": 0.012739,
+        "measuredOn": "encoded albedo file (decoded)"
+      },
+      "files": {
+        "albedo": "materials/A05-stratified-cliff-albedo.webp",
+        "normal": "materials/A05-stratified-cliff-normal.webp",
+        "roughness": "materials/A05-stratified-cliff-roughness.webp"
+      }
+    },
+    {
+      "id": "A06-flagstone-path",
+      "material": "石板路 (old flagstone pathway with moss)",
+      "roughnessRange": [
+        0.66,
+        0.9
+      ],
+      "source": {
+        "rawFile": "A06-flagstone-path.jpg",
+        "rawFormat": "jpeg",
+        "rawDimensions": "2048x2048",
+        "rawBytes": 5476072,
+        "rawSha256": "bac3fc47e28d9c09724e2232a74bfb83e39524fe8ed33d54bae48b2a746ff670",
+        "nodeId": "455894214062552",
+        "generatedOn": "2026-10-24",
+        "prompt": "old flagstone pathway with patchy moss and chipped limestone, seamless tileable texture, flat even lighting, no shadows, no objects, orthographic top-down, photorealistic PBR albedo map, evenly exposed, no specular reflections baked in, no perspective, no text, no watermark"
+      },
+      "processing": {
+        "seamBandPx": 96,
+        "sourceResolution": "2048x2048",
+        "albedoQuality": 82,
+        "albedoResolution": "1536x1536",
+        "normalResolution": "1024x1024",
+        "normalStrength": 0.55,
+        "normalConvention": "OpenGL / +Y-up tangent space (three.js default flipY=true)",
+        "roughnessResolution": "1024x1024",
+        "roughnessSeed": 1592636594
+      },
+      "seam": {
+        "leftRightRgbDelta": 0.012731,
+        "topBottomRgbDelta": 0.0128,
+        "measuredOn": "encoded albedo file (decoded)"
+      },
+      "files": {
+        "albedo": "materials/A06-flagstone-path-albedo.webp",
+        "normal": "materials/A06-flagstone-path-normal.webp",
+        "roughness": "materials/A06-flagstone-path-roughness.webp"
+      }
+    },
+    {
+      "id": "A07-carved-oak",
+      "material": "雕刻橡木板材 (dark carved oak planks)",
+      "roughnessRange": [
+        0.56,
+        0.75
+      ],
+      "source": {
+        "rawFile": "A07-carved-oak.jpg",
+        "rawFormat": "jpeg",
+        "rawDimensions": "2048x2048",
+        "rawBytes": 4319730,
+        "rawSha256": "76c983e9dbcf147d7117db731eb857f2e7908951b5ffcce27615ddcab1b76cb7",
+        "nodeId": "455893682532658",
+        "generatedOn": "2026-10-24",
+        "prompt": "dark carved oak planks, continuous aged grain, narrow board seams, seamless tileable texture, flat even lighting, no shadows, no objects, orthographic top-down, photorealistic PBR albedo map, evenly exposed, no specular reflections baked in, no perspective, no text, no watermark"
+      },
+      "processing": {
+        "seamBandPx": 96,
+        "sourceResolution": "2048x2048",
+        "albedoQuality": 82,
+        "albedoResolution": "2048x2048",
+        "normalResolution": "1024x1024",
+        "normalStrength": 0.55,
+        "normalConvention": "OpenGL / +Y-up tangent space (three.js default flipY=true)",
+        "roughnessResolution": "1024x1024",
+        "roughnessSeed": 1592644513
+      },
+      "seam": {
+        "leftRightRgbDelta": 0.010158,
+        "topBottomRgbDelta": 0.011851,
+        "measuredOn": "encoded albedo file (decoded)"
+      },
+      "files": {
+        "albedo": "materials/A07-carved-oak-albedo.webp",
+        "normal": "materials/A07-carved-oak-normal.webp",
+        "roughness": "materials/A07-carved-oak-roughness.webp"
+      }
+    },
+    {
+      "id": "A08-aged-bronze",
+      "material": "陈旧青铜板 (aged bronze sheet metal with green patina)",
+      "roughnessRange": [
+        0.32,
+        0.55
+      ],
+      "source": {
+        "rawFile": "A08-aged-bronze.jpg",
+        "rawFormat": "png",
+        "rawDimensions": "2048x2048",
+        "rawBytes": 7381824,
+        "rawSha256": "d462b9d97d14817c0636597d2554bbb969a0597169cd4ecd3a31a3286dec8152",
+        "nodeId": "455894182822073",
+        "generatedOn": "2026-10-24",
+        "prompt": "aged bronze sheet metal, subtle hammered dents and green patina, diffuse-only albedo, seamless tileable texture, flat even lighting, no shadows, no objects, orthographic top-down, photorealistic PBR albedo map, evenly exposed, no specular reflections baked in, no perspective, no text, no watermark"
+      },
+      "processing": {
+        "seamBandPx": 96,
+        "sourceResolution": "2048x2048",
+        "albedoQuality": 82,
+        "albedoResolution": "2048x2048",
+        "normalResolution": "1024x1024",
+        "normalStrength": 0.55,
+        "normalConvention": "OpenGL / +Y-up tangent space (three.js default flipY=true)",
+        "roughnessResolution": "2048x2048",
+        "roughnessSeed": 1592652432
+      },
+      "seam": {
+        "leftRightRgbDelta": 0.010894,
+        "topBottomRgbDelta": 0.011133,
+        "measuredOn": "encoded albedo file (decoded)"
+      },
+      "files": {
+        "albedo": "materials/A08-aged-bronze-albedo.webp",
+        "normal": "materials/A08-aged-bronze-normal.webp",
+        "roughness": "materials/A08-aged-bronze-roughness.webp"
+      }
+    }
+  ],
+  "poster": {
+    "id": "poster",
+    "material": "16:9 概念海报 / 无 WebGL2 时的静态备用图",
+    "source": {
+      "rawFile": "poster.jpg",
+      "rawFormat": "jpeg",
+      "rawDimensions": "2752x1536",
+      "rawBytes": 2518711,
+      "rawSha256": "f3391ca5fdaaf558e173815cba2b37166085dd54a637fabbe9f0b52061b5a70c",
+      "nodeId": "455894147842552",
+      "generatedOn": "2026-10-24",
+      "prompt": "wide painterly concept art of a soaring stone gothic castle on an eroded floating island above a dramatic layered cloud sea at golden blue dawn, primary architecture center-right, deep cool cloud shadows and amber highlights, empty editorial title-safe space on left, no text, no logo"
+    },
+    "processing": {
+      "quality": 82,
+      "width": 1024,
+      "height": 576,
+      "note": "index.html 与静态备用页引用 assets/poster/poster.jpg"
+    },
+    "files": {
+      "jpg": "poster/poster.jpg",
+      "webp": "poster/poster.webp"
+    }
+  },
+  "fonts": [
+    {
+      "family": "Noto Sans SC",
+      "weight": 400,
+      "style": "normal",
+      "file": "fonts/noto-sans-sc-400.woff2",
+      "bytes": 154956,
+      "sha256": "8c4174977e769342cf9ef7ad6a4f9cda59692fe6fd78aacfe0b7a999b7e47d21",
+      "license": "fonts/OFL.txt",
+      "glyphCount": 1020,
+      "source": "https://raw.githubusercontent.com/google/fonts/main/ofl/notosanssc/NotoSansSC%5Bwght%5D.ttf"
+    },
+    {
+      "family": "Noto Sans SC",
+      "weight": 500,
+      "style": "normal",
+      "file": "fonts/noto-sans-sc-500.woff2",
+      "bytes": 156828,
+      "sha256": "ee181af142b1cf60a2eea4292e95fc9f61b9aae1d063fdfdc1c7915602391cc7",
+      "license": "fonts/OFL.txt",
+      "glyphCount": 1020,
+      "source": "https://raw.githubusercontent.com/google/fonts/main/ofl/notosanssc/NotoSansSC%5Bwght%5D.ttf"
+    },
+    {
+      "family": "Noto Serif SC",
+      "weight": 600,
+      "style": "normal",
+      "file": "fonts/noto-serif-sc-600.woff2",
+      "bytes": 204216,
+      "sha256": "a2f98ca5ba3fd5ff364e4978489af6d6896d565fec80c262981d97d6030723b7",
+      "license": "fonts/OFL.txt",
+      "glyphCount": 1020,
+      "source": "https://raw.githubusercontent.com/google/fonts/main/ofl/notoserifsc/NotoSerifSC%5Bwght%5D.ttf"
+    },
+    {
+      "family": "Inter",
+      "weight": 400,
+      "style": "normal",
+      "file": "fonts/inter-400.woff2",
+      "bytes": 22584,
+      "sha256": "71a076398df18d1f9fe310e49324083267e6f66541e185f17224cdb9de157683",
+      "license": "fonts/OFL.txt",
+      "glyphCount": 1020,
+      "source": "https://raw.githubusercontent.com/google/fonts/main/ofl/inter/Inter%5Bopsz,wght%5D.ttf"
+    },
+    {
+      "family": "Inter",
+      "weight": 600,
+      "style": "normal",
+      "file": "fonts/inter-600.woff2",
+      "bytes": 23340,
+      "sha256": "638074740cbcdab7689a68bc1fae52d0d5c040e0b0e7c48fc05b9ca965bf2da2",
+      "license": "fonts/OFL.txt",
+      "glyphCount": 1020,
+      "source": "https://raw.githubusercontent.com/google/fonts/main/ofl/inter/Inter%5Bopsz,wght%5D.ttf"
+    }
+  ],
+  "licenses": [
+    {
+      "file": "fonts/OFL.txt",
+      "covers": [
+        "Noto Sans SC",
+        "Noto Serif SC",
+        "Inter"
+      ],
+      "license": "SIL Open Font License 1.1"
+    },
+    {
+      "file": "fonts/OFL-Noto.txt",
+      "covers": [
+        "Noto Sans SC",
+        "Noto Serif SC"
+      ],
+      "license": "SIL Open Font License 1.1"
+    },
+    {
+      "file": "fonts/OFL-Inter.txt",
+      "covers": [
+        "Inter"
+      ],
+      "license": "SIL Open Font License 1.1"
+    }
+  ],
+  "budgets": {
+    "albedoBytes": 1258291,
+    "normalBytes": 838861,
+    "roughnessBytes": 367002,
+    "posterBytes": 307200,
+    "minTextureSize": 1024,
+    "seamRgbDeltaMax": 0.06
+  },
+  "tools": {
+    "sharp": "0.35.5",
+    "vips": "8.18.7",
+    "node": "v26.0.0"
+  }
+}

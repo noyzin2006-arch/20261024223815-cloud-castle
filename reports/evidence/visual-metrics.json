@@ -1,0 +1,58 @@
+{
+  "image": "hero1920.png",
+  "width": 1920,
+  "height": 1080,
+  "histogramBuckets": 247,
+  "lumaP01": 0,
+  "lumaP99": 0.8125850980392156,
+  "lumaRange": 0.8125850980392156,
+  "lumaMean": 0.6028387851063705,
+  "saturationMedian": 0.2802197802197803,
+  "cloudLitRoi": {
+    "x": 712,
+    "y": 352,
+    "coverage": 0.935791015625,
+    "meanLuma": 0.8112113656942195
+  },
+  "cloudShadeRoi": {
+    "x": 88,
+    "y": 1016,
+    "coverage": 1,
+    "meanLuma": 0.5000203936887243
+  },
+  "cloudLumaDelta": 0.31119097200549517,
+  "cloudRoiNote": "",
+  "verdict": {
+    "pass": true,
+    "checks": [
+      {
+        "id": "histogramBuckets",
+        "label": "灰度直方图分桶",
+        "actual": 247,
+        "min": 200,
+        "pass": true
+      },
+      {
+        "id": "lumaRange",
+        "label": "亮度 1%~99% 动态范围",
+        "actual": 0.8125850980392156,
+        "min": 0.55,
+        "pass": true
+      },
+      {
+        "id": "saturationMedian",
+        "label": "HSV 饱和度中位数",
+        "actual": 0.2802197802197803,
+        "min": 0.12,
+        "pass": true
+      },
+      {
+        "id": "litShadowDelta",
+        "label": "云层受光/背光亮度差",
+        "actual": 0.31119097200549517,
+        "min": 0.12,
+        "pass": true
+      }
+    ]
+  }
+}
