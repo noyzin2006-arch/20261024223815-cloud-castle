@@ -42,5 +42,13 @@
       "node_id": "455886214443514",
       "prompt": "Seamless tileable texture of heavy crimson red velvet heraldic banner cloth, visible woven fabric weave, subtle folds and soft sheen, gold embroidered border hint at the edge, flat even lighting, no shadows, no objects, orthographic top-down, photorealistic PBR albedo map"
     }
-  ]
+  ],
+  "hero_plate": {
+    "file": "hero-plate.webp",
+    "material": "16:9 电影感概念板（加载页 / 视觉北极星参考）",
+    "node_id": "455888099307965",
+    "resolution": "2K",
+    "aspect_ratio": "16:9",
+    "prompt": "Cinematic matte painting concept art: a majestic medieval stone castle with tall slender towers and blue slate roofs floating on a rocky island above an endless sea of golden-hour clouds, warm low sun raking light, volumetric god rays piercing cloud gaps, deep aerial perspective, distant smaller floating rock islets, painterly photorealistic, dramatic wide establishing shot, no text"
+  }
 }
